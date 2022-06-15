@@ -1,0 +1,1509 @@
+﻿"Id_zone","Type_zone","Libelle_zone","Public"
+11|Fr,Pays,France métropolitaine,1
+10|52,Région,Pays de la Loire,1
+09|44,Département,Loire-Atlantique,1
+09|49,Département,Maine-et-Loire,1
+09|53,Département,Mayenne,1
+09|72,Département,Sarthe,1
+09|85,Département,Vendée,1
+05|52121,Bassin,Ancenis,1
+05|52118,Bassin,Angers,1
+05|52129,Bassin,Beaupreau,1
+05|52130,Bassin,Blain,1
+05|52117,Bassin,Challans,1
+05|52126,Bassin,Chateau Gontier,1
+05|52103,Bassin,Chateaubriant,1
+05|52105,Bassin,Cholet,1
+05|52123,Bassin,Clisson,1
+05|52115,Bassin,Fontenay Le Cte,1
+05|52122,Bassin,La Baule,1
+05|52110,Bassin,La Ferte Bernard,1
+05|52112,Bassin,La Fleche,1
+05|52114,Bassin,La Roche Sur Yon,1
+05|52127,Bassin,Laval,1
+05|52108,Bassin,Le Mans,1
+05|52113,Bassin,Les Herbiers,1
+05|52116,Bassin,Les Sables D Olonnes,1
+05|52109,Bassin,Mamers,1
+05|52128,Bassin,Mayenne,1
+05|52120,Bassin,Nantes,1
+05|52124,Bassin,Pornic,1
+05|52111,Bassin,Sable Sur Sarthe,1
+05|52125,Bassin,Saint Nazaire,1
+05|52106,Bassin,Saumur,1
+05|52119,Bassin,Segre,1
+04|PDL0098,Agence,Ancenis,0
+04|PDL0120,Agence,Angers Balzac,0
+04|PDL0112,Agence,Angers Capucins,0
+04|PDL0121,Agence,Angers Europe,0
+04|PDL0117,Agence,Angers La Roseraie,0
+04|PDL0118,Agence,Beaufort en Vallée,0
+04|PDL0116,Agence,Beaupreau,0
+04|PDL0072,Agence,Blain,0
+04|PDL0022,Agence,Challans,0
+04|PDL0053,Agence,Chateau Gontier,0
+04|PDL0088,Agence,Chateaubriant,0
+04|PDL0111,Agence,Cholet,0
+04|PDL0080,Agence,Clisson,0
+04|PDL0021,Agence,Fontenay Le Comte,0
+04|PDL0079,Agence,La Baule Guerande,0
+04|PDL0042,Agence,La Ferte Bernard,0
+04|PDL0041,Agence,La Fleche,0
+04|PDL0017,Agence,La Roche Actisud,0
+04|PDL0018,Agence,La Roche Nord,0
+04|PDL0052,Agence,Laval Ferrie,0
+04|PDL0050,Agence,Laval Saint Nicolas,0
+04|PDL0031,Agence,Le Mans Faculte,0
+04|PDL0039,Agence,Le Mans Gare,0
+04|PDL0038,Agence,Le Mans Les Sablons,0
+04|PDL0020,Agence,Les Herbiers,0
+04|PDL0454,Agence,Lucon,0
+04|PDL0084,Agence,Machecoul,0
+04|PDL0044,Agence,Mamers,0
+04|PDL0054,Agence,Mayenne,0
+04|PDL0016,Agence,Montaigu,0
+04|PDL0037,Agence,Montval Sur Loir,0
+04|PDL0091,Agence,Nantes Centre,0
+04|PDL0076,Agence,Nantes Chantenay,0
+04|PDL0100,Agence,Nantes Haluchere,0
+04|PDL0092,Agence,Nantes Malakoff,0
+04|PDL0082,Agence,Nantes Nord,0
+04|PDL0074,Agence,Nantes Sainte-Luce,0
+04|PDL0019,Agence,Olonne Sur Mer,0
+04|PDL0093,Agence,Pornic,0
+04|PDL0094,Agence,Reze,0
+04|PDL0043,Agence,Sable Sur Sarthe,0
+04|PDL0071,Agence,Saint Sebastien,0
+04|PDL0115,Agence,Saumur,0
+04|PDL0119,Agence,Segre,0
+04|PDL0015,Agence,St Gilles Croix De Vie,0
+04|PDL0097,Agence,St Herblain,0
+04|PDL0087,Agence,St Nazaire,0
+04|PDL0096,Agence,Trignac,0
+02|200071678,EPCI,CA Agglomération du Choletais,1
+02|200067635,EPCI,CA Clisson Sèvre et Maine Agglo,1
+02|248500589,EPCI,CA La Roche-sur-Yon Agglomération,1
+02|200083392,EPCI,CA Laval Agglomération,1
+02|200071165,EPCI,CA Les Sables d'Olonne Agglomération,1
+02|200060010,EPCI,CA Mauges Communauté,1
+02|200067346,EPCI,CA Pornic Agglo Pays de Retz,1
+02|243500741,EPCI,CA Redon Agglomération (Partie Pays de la Loire),1
+02|200071876,EPCI,CA Saumur Val de Loire,1
+02|200070233,EPCI,CA Terres de Montaigu,1
+02|244400610,EPCI,CA de la Presqu'île de Guérande Atlantique (Cap Atlantique) (Partie Pays de la Loire),1
+02|244400644,EPCI,CA de la Région Nazairienne et de l'Estuaire (CARENE),1
+02|200023778,EPCI,CA du Pays de Saint-Gilles-Croix-de-Vie,1
+02|244900809,EPCI,CC Anjou Bleu Communauté,1
+02|200068955,EPCI,CC Anjou Loir et Sarthe,1
+02|244900882,EPCI,CC Baugeois Vallée,1
+02|200071629,EPCI,CC Challans-Gois Communauté,1
+02|200072726,EPCI,CC Châteaubriant-Derval,1
+02|247200090,EPCI,CC Communauté de communes du Pays Sabolien,1
+02|200072734,EPCI,CC Estuaire et Sillon,1
+02|244400438,EPCI,CC Grand Lieu Communauté,1
+02|200072700,EPCI,CC Haute Sarthe Alpes Mancelles,1
+02|200072684,EPCI,CC Le Gesnois Bilurien,1
+02|200070373,EPCI,CC Loir-Lucé-Bercé,1
+02|200071553,EPCI,CC Loire Layon Aubance,1
+02|200040475,EPCI,CC Loué - Brûlon - Noyen,1
+02|200068963,EPCI,CC Maine Cœur de Sarthe,1
+02|200072676,EPCI,CC Maine Saosnois (Partie Pays de la Loire),1
+02|200055887,EPCI,CC Mayenne Communauté,1
+02|248500258,EPCI,CC Océan Marais de Monts,1
+02|247200447,EPCI,CC Orée de Bercé - Belinois,1
+02|248500340,EPCI,CC Pays de Chantonnay,1
+02|200071934,EPCI,CC Pays de Fontenay-Vendée,1
+02|200071546,EPCI,CC Sud Retz Atlantique,1
+02|200073112,EPCI,CC Sud Sarthe,1
+02|200073260,EPCI,CC Sud Vendée Littoral,1
+02|200067866,EPCI,CC Sèvre et Loire,1
+02|200071900,EPCI,CC Vendée Grand Littoral,1
+02|248500563,EPCI,"CC Vendée, Sèvre, Autise",1
+02|244400503,EPCI,CC d'Erdre et Gesvres,1
+02|244400537,EPCI,CC de Nozay,1
+02|200072882,EPCI,CC de Vie et Boulogne,1
+02|245300355,EPCI,CC de l'Ernée,1
+02|248500191,EPCI,CC de l'Île de Noirmoutier,1
+02|200072718,EPCI,CC de la Champagne Conlinoise et du Pays de Sillé,1
+02|244400453,EPCI,CC de la Région de Blain,1
+02|200033298,EPCI,CC des Coëvrons,1
+02|200072692,EPCI,CC des Vallées de la Braye et de l'Anille,1
+02|200071868,EPCI,CC des Vallées du Haut-Anjou,1
+02|245300389,EPCI,CC du Bocage Mayennais,1
+02|200042182,EPCI,CC du Mont des Avaloirs,1
+02|247200348,EPCI,CC du Pays Fléchois,1
+02|244400552,EPCI,CC du Pays d'Ancenis,1
+02|245300447,EPCI,CC du Pays de Château-Gontier,1
+02|200048551,EPCI,CC du Pays de Craon,1
+02|245300223,EPCI,CC du Pays de Meslay-Grez,1
+02|248500662,EPCI,CC du Pays de Mortagne,1
+02|200000438,EPCI,CC du Pays de Pontchâteau Saint-Gildas-des-Bois,1
+02|248500464,EPCI,CC du Pays de Pouzauges,1
+02|200071918,EPCI,CC du Pays de Saint-Fulgent - Les Essarts,1
+02|247200686,EPCI,CC du Pays de l'Huisne Sarthoise,1
+02|248500415,EPCI,CC du Pays de la Châtaigneraie,1
+02|248500530,EPCI,CC du Pays des Achards,1
+02|248500621,EPCI,CC du Pays des Herbiers,1
+02|247200421,EPCI,CC du Sud Est Manceau,1
+02|244400586,EPCI,CC du Sud Estuaire,1
+02|247200629,EPCI,CC du Val de Sarthe,1
+02|244900015,EPCI,CU Angers Loire Métropole,1
+02|247200132,EPCI,CU Le Mans Métropole,1
+02|246100663,EPCI,CU d'Alençon (Partie Pays de la Loire),1
+02|244400404,EPCI,Nantes Métropole,1
+06|5251,Zone d'emploi,Alençon (Partie Pays de la Loire),1
+06|5201,Zone d'emploi,Ancenis,1
+06|5202,Zone d'emploi,Angers,1
+06|5203,Zone d'emploi,Challans,1
+06|5206,Zone d'emploi,Cholet,1
+06|5204,Zone d'emploi,Château-Gontier,1
+06|5205,Zone d'emploi,Châteaubriant,1
+06|5207,Zone d'emploi,Fontenay-le-Comte,1
+06|5208,Zone d'emploi,La Ferté-Bernard,1
+06|5209,Zone d'emploi,La Flèche,1
+06|5210,Zone d'emploi,La Roche-sur-Yon,1
+06|5211,Zone d'emploi,Laval,1
+06|5212,Zone d'emploi,Le Mans,1
+06|5213,Zone d'emploi,Les Herbiers-Montaigu,1
+06|5214,Zone d'emploi,Les Sables-d'Olonne,1
+06|5215,Zone d'emploi,Mayenne,1
+06|5216,Zone d'emploi,Nantes,1
+06|5217,Zone d'emploi,Pornic,1
+06|5262,Zone d'emploi,Redon (Partie Pays de la Loire),1
+06|5218,Zone d'emploi,Sablé-sur-Sarthe,1
+06|5219,Zone d'emploi,Saint-Nazaire,1
+06|5220,Zone d'emploi,Saumur,1
+06|5221,Zone d'emploi,Segré-en-Anjou Bleu,1
+08|491,Arrondissement,Angers,1
+08|492,Arrondissement,Cholet,1
+08|531,Arrondissement,Château-Gontier,1
+08|445,Arrondissement,Châteaubriant-Ancenis,1
+08|851,Arrondissement,Fontenay-le-Comte,1
+08|721,Arrondissement,La Flèche,1
+08|852,Arrondissement,La Roche-sur-Yon,1
+08|532,Arrondissement,Laval,1
+08|723,Arrondissement,Le Mans,1
+08|853,Arrondissement,Les Sables-d'Olonne,1
+08|722,Arrondissement,Mamers,1
+08|533,Arrondissement,Mayenne,1
+08|442,Arrondissement,Nantes,1
+08|443,Arrondissement,Saint-Nazaire,1
+08|493,Arrondissement,Saumur,1
+08|494,Arrondissement,Segré,1
+07|441,EFOP,Loire-Atlantique Centre,0
+07|442,EFOP,Loire-Atlantique Nord,0
+07|443,EFOP,Loire-Atlantique Ouest,0
+07|444,EFOP,Loire-Atlantique Sud,0
+07|491,EFOP,Maine-et-Loire Centre,0
+07|492,EFOP,Maine-et-Loire Est,0
+07|493,EFOP,Maine-et-Loire Ouest,0
+07|494,EFOP,Maine-et-Loire Sud,0
+07|531,EFOP,Mayenne Centre,0
+07|532,EFOP,Mayenne Nord,0
+07|533,EFOP,Mayenne Sud,0
+07|721,EFOP,Sarthe Centre,0
+07|722,EFOP,Sarthe Nord,0
+07|723,EFOP,Sarthe Sud,0
+07|851,EFOP,Vendée Centre,0
+07|852,EFOP,Vendée Est,0
+07|853,EFOP,Vendée Nord,0
+07|854,EFOP,Vendée Ouest,0
+03|8501,Canton,Aizenay,1
+03|4401,Canton,Ancenis-Saint-Géréon,1
+03|4908,Canton,Beaufort-en-Anjou,1
+03|4909,Canton,Beaupréau-en-Mauges,1
+03|4403,Canton,Blain,1
+03|5302,Canton,Bonchamp-lès-Laval,1
+03|7201,Canton,Bonnétable,1
+03|4404,Canton,Carquefou,1
+03|8502,Canton,Challans,1
+03|7202,Canton,Changé,1
+03|8503,Canton,Chantonnay,1
+03|4911,Canton,Chemillé-en-Anjou,1
+03|4406,Canton,Châteaubriant,1
+03|4407,Canton,Clisson,1
+03|5304,Canton,Cossé-le-Vivien,1
+03|5305,Canton,Ernée,1
+03|8505,Canton,Fontenay-le-Comte,1
+03|5307,Canton,Gorron,1
+03|4408,Canton,Guémené-Penfao,1
+03|4409,Canton,Guérande,1
+03|5308,Canton,L'Huisserie,1
+03|8507,Canton,L'île-d'Yeu,1
+03|4402,Canton,La Baule-Escoublac,1
+03|4405,Canton,La Chapelle-sur-Erdre,1
+03|8504,Canton,La Châtaigneraie,1
+03|7205,Canton,La Ferté-Bernard,1
+03|7206,Canton,La Flèche,1
+03|7221,Canton,La Suze-sur-Sarthe,1
+03|5309,Canton,Lassay-les-Châteaux,1
+03|7208,Canton,Le Lude,1
+03|8506,Canton,Les Herbiers,1
+03|8514,Canton,Les Sables-d'Olonne,1
+03|5313,Canton,Loiron-Ruillé,1
+03|7207,Canton,Loué,1
+03|8508,Canton,Luçon,1
+03|7209,Canton,Mamers,1
+03|8509,Canton,Mareuil-sur-Lay-Dissais,1
+03|4916,Canton,Mauges-sur-Loire,1
+03|5314,Canton,Mayenne,1
+03|5315,Canton,Meslay-du-Maine,1
+03|8510,Canton,Montaigu-Vendée,1
+03|7203,Canton,Montval-sur-Loir,1
+03|8511,Canton,Mortagne-sur-Sèvre,1
+03|4418,Canton,Nort-sur-Erdre,1
+03|4419,Canton,Pontchâteau,1
+03|7217,Canton,Sablé-sur-Sarthe,1
+03|5316,Canton,Saint-Berthevin,1
+03|4423,Canton,Saint-Brevin-les-Pins,1
+03|7218,Canton,Saint-Calais,1
+03|8515,Canton,Saint-Hilaire-de-Riez,1
+03|8516,Canton,Saint-Jean-de-Monts,1
+03|4428,Canton,Saint-Philbert-de-Grand-Lieu,1
+03|4429,Canton,Saint-Sébastien-sur-Loire,1
+03|4919,Canton,Saumur,1
+03|7219,Canton,Savigné-l'Évêque,1
+03|4920,Canton,Segré-en-Anjou Bleu,1
+03|7220,Canton,Sillé-le-Guillaume,1
+03|4918,Canton,Sèvremoine,1
+03|8517,Canton,Talmont-Saint-Hilaire,1
+03|4430,Canton,Vallet,1
+03|4431,Canton,Vertou,1
+03|5317,Canton,Villaines-la-Juhel,1
+03|7204,Canton,Écommoy,1
+03|5306,Canton,Évron,1
+01|44001,Commune,Abbaretz,1
+01|53001,Commune,Ahuillé,1
+01|72001,Commune,Aigné,1
+01|44002,Commune,Aigrefeuille-sur-Maine,1
+01|72002,Commune,Aillières-Beauvoir,1
+01|85003,Commune,Aizenay,1
+01|53002,Commune,Alexain,1
+01|49002,Commune,Allonnes (49),1
+01|72003,Commune,Allonnes (72),1
+01|53003,Commune,Ambrières-les-Vallées,1
+01|72004,Commune,Amné,1
+01|44003,Commune,Ancenis-Saint-Géréon,1
+01|72005,Commune,Ancinnes,1
+01|53005,Commune,Andouillé,1
+01|49007,Commune,Angers,1
+01|85004,Commune,Angles (85),1
+01|49008,Commune,Angrie,1
+01|85005,Commune,Antigny (85),1
+01|49009,Commune,Antoigné,1
+01|85006,Commune,Apremont (85),1
+01|72007,Commune,Ardenay-sur-Mérize,1
+01|53007,Commune,Argentré,1
+01|49010,Commune,Armaillé,1
+01|72008,Commune,Arnage,1
+01|53008,Commune,Aron,1
+01|53009,Commune,Arquenay,1
+01|49011,Commune,Artannes-sur-Thouet,1
+01|72009,Commune,Arthezé,1
+01|72006,Commune,Arçonnay,1
+01|72010,Commune,Asnières-sur-Vègre,1
+01|72011,Commune,Assé-le-Boisne,1
+01|53010,Commune,Assé-le-Bérenger,1
+01|72012,Commune,Assé-le-Riboul,1
+01|44006,Commune,Assérac,1
+01|53011,Commune,Astillé,1
+01|53012,Commune,Athée (53),1
+01|85008,Commune,Aubigny-Les Clouzeaux,1
+01|72013,Commune,Aubigné-Racan,1
+01|49012,Commune,Aubigné-sur-Layon,1
+01|85009,Commune,Auchay-sur-Vendée,1
+01|72016,Commune,Auvers-le-Hamon,1
+01|72017,Commune,Auvers-sous-Montfaucon,1
+01|53013,Commune,Averton,1
+01|72018,Commune,Avesnes-en-Saosnois,1
+01|44007,Commune,Avessac,1
+01|72019,Commune,Avessé,1
+01|72020,Commune,Avezé,1
+01|72021,Commune,Avoise,1
+01|49015,Commune,Avrillé (49),1
+01|85010,Commune,Avrillé (85),1
+01|53016,Commune,Bais (53),1
+01|72023,Commune,Ballon-Saint Mars,1
+01|53018,Commune,Ballots,1
+01|53019,Commune,Bannes (53),1
+01|49017,Commune,Baracé,1
+01|85011,Commune,Barbâtre,1
+01|44009,Commune,Basse-Goulaine,1
+01|44010,Commune,Batz-sur-Mer,1
+01|49018,Commune,Baugé-en-Anjou,1
+01|85013,Commune,Bazoges-en-Paillers,1
+01|85014,Commune,Bazoges-en-Pareds,1
+01|53025,Commune,Bazougers,1
+01|72025,Commune,Bazouges Cré sur Loir,1
+01|49020,Commune,Beaucouzé,1
+01|72026,Commune,Beaufay,1
+01|49021,Commune,Beaufort-en-Anjou,1
+01|85015,Commune,Beaufou,1
+01|85016,Commune,Beaulieu-sous-la-Roche,1
+01|49022,Commune,Beaulieu-sur-Layon,1
+01|53026,Commune,Beaulieu-sur-Oudon,1
+01|53027,Commune,Beaumont-Pied-de-Bœuf (53),1
+01|72028,Commune,Beaumont-Pied-de-Bœuf (72),1
+01|72027,Commune,Beaumont-sur-Dême,1
+01|72029,Commune,Beaumont-sur-Sarthe,1
+01|49023,Commune,Beaupréau-en-Mauges,1
+01|85017,Commune,Beaurepaire (85),1
+01|85018,Commune,Beauvoir-sur-Mer,1
+01|72031,Commune,Beillé,1
+01|53028,Commune,Belgeard,1
+01|49345,Commune,Bellevigne-en-Layon,1
+01|49060,Commune,Bellevigne-les-Châteaux,1
+01|85019,Commune,Bellevigny,1
+01|85020,Commune,Benet,1
+01|72032,Commune,Berfay,1
+01|72219,Commune,Bernay-Neuvy-en-Champagne,1
+01|44013,Commune,Besné,1
+01|85023,Commune,Bessay,1
+01|72035,Commune,Bessé-sur-Braye,1
+01|53029,Commune,Bierné-les-Villages,1
+01|44015,Commune,Blain,1
+01|49029,Commune,Blaison-Saint-Sulpice,1
+01|53228,Commune,Blandouet-Saint Jean,1
+01|49030,Commune,Blou,1
+01|72037,Commune,Blèves,1
+01|85024,Commune,Bois-de-Céné,1
+01|53034,Commune,Bonchamp-lès-Laval,1
+01|72039,Commune,Bonnétable,1
+01|44018,Commune,Bouaye,1
+01|53035,Commune,Bouchamps-lès-Craon,1
+01|49035,Commune,Bouchemaine,1
+01|53037,Commune,Bouessay,1
+01|44020,Commune,Bouguenais,1
+01|85028,Commune,Bouillé-Courdault,1
+01|49036,Commune,Bouillé-Ménard,1
+01|85029,Commune,Bouin,1
+01|53038,Commune,Boulay-les-Ifs,1
+01|72042,Commune,Bouloire,1
+01|49038,Commune,Bourg-l'Évêque,1
+01|72043,Commune,Bourg-le-Roi,1
+01|53040,Commune,Bourgon,1
+01|85033,Commune,Bourneau,1
+01|85034,Commune,Bournezeau,1
+01|44022,Commune,Boussay (44),1
+01|72044,Commune,Bousse (72),1
+01|44023,Commune,Bouvron (44),1
+01|53036,Commune,Bouère,1
+01|44019,Commune,Bouée,1
+01|72041,Commune,Bouër,1
+01|72038,Commune,Boëssé-le-Sec,1
+01|49041,Commune,Brain-sur-Allonnes,1
+01|44024,Commune,Brains,1
+01|72045,Commune,Brains-sur-Gée,1
+01|53041,Commune,Brains-sur-les-Marches,1
+01|53042,Commune,Brecé,1
+01|85243,Commune,Brem-sur-Mer,1
+01|85035,Commune,Bretignolles-sur-Mer,1
+01|72047,Commune,Brette-les-Pins,1
+01|85037,Commune,Breuil-Barret,1
+01|49048,Commune,Briollay,1
+01|72048,Commune,Briosne-lès-Sables,1
+01|49050,Commune,Brissac Loire Aubance,1
+01|49053,Commune,Brossay,1
+01|53043,Commune,Brée,1
+01|72050,Commune,Brûlon,1
+01|49026,Commune,Bécon-les-Granits,1
+01|49027,Commune,Bégrolles-en-Mauges,1
+01|49028,Commune,Béhuard,1
+01|72034,Commune,Bérus,1
+01|72036,Commune,Béthon,1
+01|44025,Commune,Campbon,1
+01|49054,Commune,Candé,1
+01|49055,Commune,Cantenay-Épinard,1
+01|49056,Commune,Carbay,1
+01|53047,Commune,Carelles,1
+01|44026,Commune,Carquefou,1
+01|44027,Commune,Casson,1
+01|49057,Commune,Cernusson,1
+01|85041,Commune,Cezais,1
+01|72052,Commune,Chahaignes,1
+01|53048,Commune,Chailland,1
+01|85042,Commune,Chaillé-les-Marais,1
+01|49061,Commune,Challain-la-Potherie,1
+01|85047,Commune,Challans,1
+01|72053,Commune,Challes,1
+01|49063,Commune,Chalonnes-sur-Loire,1
+01|49064,Commune,Chambellay,1
+01|72054,Commune,Champagné,1
+01|85049,Commune,Champagné-les-Marais,1
+01|72056,Commune,Champfleur,1
+01|53052,Commune,Champfrémont,1
+01|53053,Commune,Champgenéteux,1
+01|72057,Commune,Champrond,1
+01|49068,Commune,Champtocé-sur-Loire,1
+01|53051,Commune,Champéon,1
+01|53054,Commune,Changé (53),1
+01|72058,Commune,Changé (72),1
+01|49070,Commune,Chanteloup-les-Bois,1
+01|72059,Commune,Chantenay-Villedieu,1
+01|85051,Commune,Chantonnay,1
+01|53055,Commune,Chantrigné,1
+01|85302,Commune,Chanverrie,1
+01|53061,Commune,Charchigné,1
+01|85058,Commune,Chasnais,1
+01|72070,Commune,Chassillé,1
+01|85064,Commune,Chauché,1
+01|49082,Commune,Chaudefonds-sur-Layon,1
+01|72073,Commune,Chaufour-Notre-Dame,1
+01|44005,Commune,Chaumes-en-Retz,1
+01|44038,Commune,Chauvé,1
+01|85065,Commune,Chavagnes-en-Paillers,1
+01|85066,Commune,Chavagnes-les-Redoux,1
+01|49089,Commune,Chazé-sur-Argos,1
+01|49090,Commune,Cheffes,1
+01|85067,Commune,Cheffois,1
+01|44039,Commune,Cheix-en-Retz,1
+01|53066,Commune,Chemazé,1
+01|49092,Commune,Chemillé-en-Anjou,1
+01|72074,Commune,Chemiré-en-Charnie,1
+01|72075,Commune,Chemiré-le-Gaudin,1
+01|72076,Commune,Chenay (72),1
+01|49067,Commune,Chenillé-Champteussé,1
+01|72077,Commune,Chenu,1
+01|72080,Commune,Cherré-Au,1
+01|53069,Commune,Chevaigné-du-Maine,1
+01|72083,Commune,Chevillé,1
+01|49099,Commune,Cholet,1
+01|53049,Commune,Châlons-du-Maine,1
+01|53062,Commune,Château-Gontier-sur-Mayenne,1
+01|85061,Commune,Château-Guibert,1
+01|44037,Commune,Château-Thébaud,1
+01|72072,Commune,Château-l'Hermitage,1
+01|44036,Commune,Châteaubriant,1
+01|85062,Commune,Châteauneuf (85),1
+01|53063,Commune,Châtelain,1
+01|53064,Commune,Châtillon-sur-Colmont,1
+01|53067,Commune,Chémeré-le-Roi,1
+01|53068,Commune,Chérancé (53),1
+01|72078,Commune,Chérancé (72),1
+01|72079,Commune,Chérisay,1
+01|49100,Commune,Cizay-la-Madeleine,1
+01|72084,Commune,Clermont-Créans,1
+01|44043,Commune,Clisson,1
+01|49102,Commune,Cléré-sur-Layon,1
+01|72085,Commune,Cogners,1
+01|53071,Commune,Colombiers-du-Plessis,1
+01|85071,Commune,Commequiers,1
+01|53072,Commune,Commer,1
+01|72086,Commune,Commerveil,1
+01|72087,Commune,Conflans-sur-Anille,1
+01|53073,Commune,Congrier,1
+01|72088,Commune,Congé-sur-Orne,1
+01|72089,Commune,Conlie,1
+01|72090,Commune,Connerré,1
+01|44044,Commune,Conquereuil,1
+01|53074,Commune,Contest,1
+01|72091,Commune,Contilly,1
+01|44156,Commune,Corcoué-sur-Logne,1
+01|44045,Commune,Cordemais,1
+01|72093,Commune,Cormes,1
+01|49107,Commune,Cornillé-les-Caves,1
+01|49109,Commune,Coron,1
+01|85073,Commune,Corpe,1
+01|44046,Commune,Corsept,1
+01|49110,Commune,Corzé,1
+01|53075,Commune,Cosmes,1
+01|53076,Commune,Cossé-en-Champagne,1
+01|53077,Commune,Cossé-le-Vivien,1
+01|53078,Commune,Coudray (53),1
+01|72094,Commune,Coudrecieux,1
+01|53079,Commune,Couesmes-Vaucé,1
+01|44048,Commune,Couffé,1
+01|72095,Commune,Coulaines,1
+01|72096,Commune,Coulans-sur-Gée,1
+01|72098,Commune,Coulongé,1
+01|53080,Commune,Couptrain,1
+01|53082,Commune,Courbeveille,1
+01|72099,Commune,Courcebœufs,1
+01|72100,Commune,Courcelles-la-Forêt,1
+01|72101,Commune,Courcemont,1
+01|49113,Commune,Courchamps (49),1
+01|53083,Commune,Courcité,1
+01|72102,Commune,Courcival,1
+01|72103,Commune,Courdemanche (72),1
+01|72104,Commune,Courgains,1
+01|72105,Commune,Courgenard,1
+01|49114,Commune,Courléon,1
+01|72106,Commune,Courtillers,1
+01|44047,Commune,Couëron,1
+01|85070,Commune,Coëx,1
+01|72107,Commune,Crannes-en-Champagne,1
+01|53084,Commune,Craon (53),1
+01|53085,Commune,Crennes-sur-Fraubée,1
+01|72109,Commune,Crissé,1
+01|72110,Commune,Crosmières,1
+01|44050,Commune,Crossac,1
+01|85076,Commune,Cugand,1
+01|53088,Commune,Cuillé,1
+01|72111,Commune,Cures,1
+01|85077,Commune,Curzon,1
+01|72051,Commune,Cérans-Foulletourte,1
+01|85078,Commune,Damvix,1
+01|72112,Commune,Dangeul,1
+01|53089,Commune,Daon,1
+01|72113,Commune,Degré,1
+01|72114,Commune,Dehault,1
+01|53090,Commune,Denazé,1
+01|49120,Commune,Denée,1
+01|44051,Commune,Derval,1
+01|72115,Commune,Dissay-sous-Courcillon,1
+01|49123,Commune,Distré,1
+01|44029,Commune,Divatte-sur-Loire,1
+01|85080,Commune,Doix lès Fontaines,1
+01|72118,Commune,Dollon,1
+01|72119,Commune,Domfront-en-Champagne,1
+01|85081,Commune,Dompierre-sur-Yon,1
+01|44052,Commune,Donges,1
+01|72120,Commune,Doucelles,1
+01|72121,Commune,Douillet,1
+01|49125,Commune,Doué-en-Anjou,1
+01|44053,Commune,Drefféac,1
+01|72122,Commune,Duneau,1
+01|72123,Commune,Dureil,1
+01|49127,Commune,Durtal,1
+01|49121,Commune,Dénezé-sous-Doué,1
+01|53091,Commune,Désertines (53),1
+01|53094,Commune,Entrammes,1
+01|44054,Commune,Erbray,1
+01|49367,Commune,Erdre-en-Anjou,1
+01|53096,Commune,Ernée,1
+01|85084,Commune,Essarts en Bocage,1
+01|85086,Commune,Falleron,1
+01|72129,Commune,Fatines,1
+01|72130,Commune,Fay (72),1
+01|44056,Commune,Fay-de-Bretagne,1
+01|85087,Commune,Faymoreau,1
+01|49135,Commune,Feneu,1
+01|44058,Commune,Fercé,1
+01|72131,Commune,Fercé-sur-Sarthe,1
+01|72133,Commune,Fillé,1
+01|72134,Commune,Flée,1
+01|53098,Commune,Fontaine-Couverte,1
+01|85092,Commune,Fontenay-le-Comte,1
+01|72136,Commune,Fontenay-sur-Vègre,1
+01|49140,Commune,Fontevraud-l'Abbaye,1
+01|53099,Commune,Forcé,1
+01|53100,Commune,Fougerolles-du-Plessis,1
+01|85093,Commune,Fougeré,1
+01|85094,Commune,Foussais-Payré,1
+01|72138,Commune,Fresnay-sur-Sarthe,1
+01|85095,Commune,Froidfond,1
+01|53101,Commune,Fromentières (53),1
+01|44061,Commune,Frossay,1
+01|72139,Commune,Fyé,1
+01|44057,Commune,Fégréac,1
+01|53102,Commune,Gastines,1
+01|44223,Commune,Geneston,1
+01|53104,Commune,Gennes-Longuefuye,1
+01|49261,Commune,Gennes-Val-de-Loire,1
+01|53105,Commune,Gesnes,1
+01|72141,Commune,Gesnes-le-Gandelin,1
+01|53106,Commune,Gesvres,1
+01|85100,Commune,Givrand,1
+01|44064,Commune,Gorges (44),1
+01|53107,Commune,Gorron,1
+01|85102,Commune,Grand'Landes,1
+01|44065,Commune,Grand-Auverné,1
+01|72142,Commune,Grandchamp (72),1
+01|44066,Commune,Grandchamps-des-Fontaines,1
+01|53109,Commune,Grazay,1
+01|49155,Commune,Grez-Neuville,1
+01|53110,Commune,Grez-en-Bouère,1
+01|85103,Commune,Grosbreuil,1
+01|85104,Commune,Grues,1
+01|72144,Commune,Gréez-sur-Roc,1
+01|44068,Commune,Guenrouet,1
+01|72146,Commune,Guécélard,1
+01|44067,Commune,Guémené-Penfao,1
+01|44069,Commune,Guérande,1
+01|44063,Commune,Gétigné,1
+01|53113,Commune,Hambers,1
+01|53114,Commune,Hardanges,1
+01|44071,Commune,Haute-Goulaine,1
+01|44072,Commune,Herbignac,1
+01|53115,Commune,Hercé,1
+01|53117,Commune,Houssay (53),1
+01|49174,Commune,Huillé-Lézigné,1
+01|44073,Commune,Héric,1
+01|44074,Commune,Indre,1
+01|49160,Commune,Ingrandes-Le Fresne sur Loire,1
+01|44075,Commune,Issé,1
+01|53120,Commune,Izé,1
+01|44076,Commune,Jans,1
+01|85114,Commune,Jard-sur-Mer,1
+01|49163,Commune,Jarzé Villages,1
+01|72148,Commune,Jauzé,1
+01|53121,Commune,Javron-les-Chapelles,1
+01|72149,Commune,Joué-en-Charnie,1
+01|72150,Commune,Joué-l'Abbé,1
+01|44077,Commune,Joué-sur-Erdre,1
+01|53122,Commune,Jublains,1
+01|44078,Commune,Juigné-des-Moutiers,1
+01|72151,Commune,Juigné-sur-Sarthe,1
+01|72152,Commune,Juillé (72),1
+01|72153,Commune,Jupilles,1
+01|49170,Commune,Juvardeil,1
+01|53123,Commune,Juvigné,1
+01|85001,Commune,L'Aiguillon-la-Presqu'île,1
+01|85002,Commune,L'Aiguillon-sur-Vie,1
+01|85108,Commune,L'Herbergement,1
+01|85110,Commune,L'Hermenault,1
+01|53119,Commune,L'Huisserie,1
+01|85167,Commune,L'Orbrie,1
+01|85083,Commune,L'Épine (85),1
+01|85111,Commune,L'Île-d'Elle,1
+01|85112,Commune,L'Île-d'Olonne,1
+01|85113,Commune,L'Île-d'Yeu,1
+01|53015,Commune,La Baconnière,1
+01|85012,Commune,La Barre-de-Monts,1
+01|44055,Commune,La Baule-Escoublac,1
+01|72024,Commune,La Bazoge,1
+01|53021,Commune,La Bazoge-Montpinçon,1
+01|53022,Commune,La Bazouge-de-Chemeré,1
+01|53023,Commune,La Bazouge-des-Alleux,1
+01|85021,Commune,La Bernardière,1
+01|44012,Commune,La Bernerie-en-Retz,1
+01|53031,Commune,La Bigottière,1
+01|53033,Commune,La Boissière (53),1
+01|85025,Commune,La Boissière-de-Montaigu,1
+01|85026,Commune,La Boissière-des-Landes,1
+01|44016,Commune,La Boissière-du-Doré,1
+01|72040,Commune,La Bosse (72),1
+01|49045,Commune,La Breille-les-Pins,1
+01|85036,Commune,La Bretonnière-la-Claye,1
+01|85039,Commune,La Bruffière,1
+01|72049,Commune,La Bruère-sur-Loir,1
+01|53045,Commune,La Brûlatte,1
+01|85040,Commune,La Caillère-Saint-Hilaire,1
+01|85045,Commune,La Chaize-Giraud,1
+01|85046,Commune,La Chaize-le-Vicomte,1
+01|53056,Commune,La Chapelle-Anthenaise,1
+01|53058,Commune,La Chapelle-Craonnaise,1
+01|44031,Commune,La Chapelle-Glain,1
+01|85054,Commune,La Chapelle-Hermier,1
+01|44032,Commune,La Chapelle-Heulin,1
+01|72064,Commune,La Chapelle-Huon,1
+01|44033,Commune,La Chapelle-Launay,1
+01|85055,Commune,La Chapelle-Palluau,1
+01|53059,Commune,La Chapelle-Rainsouin,1
+01|72065,Commune,La Chapelle-Saint-Aubin,1
+01|72066,Commune,La Chapelle-Saint-Fray,1
+01|49076,Commune,La Chapelle-Saint-Laud,1
+01|72067,Commune,La Chapelle-Saint-Rémy,1
+01|85056,Commune,La Chapelle-Thémer,1
+01|53057,Commune,La Chapelle-au-Riboul,1
+01|72060,Commune,La Chapelle-aux-Choux,1
+01|85053,Commune,La Chapelle-aux-Lys,1
+01|72061,Commune,La Chapelle-d'Aligné,1
+01|44030,Commune,La Chapelle-des-Marais,1
+01|72062,Commune,La Chapelle-du-Bois,1
+01|44035,Commune,La Chapelle-sur-Erdre,1
+01|72068,Commune,La Chartre-sur-le-Loir,1
+01|44221,Commune,La Chevallerais,1
+01|44041,Commune,La Chevrolière,1
+01|85059,Commune,La Châtaigneraie,1
+01|85072,Commune,La Copechagnière,1
+01|85074,Commune,La Couture (85),1
+01|53086,Commune,La Croixille,1
+01|53087,Commune,La Cropte,1
+01|53093,Commune,La Dorée,1
+01|85089,Commune,La Ferrière (85),1
+01|72132,Commune,La Ferté-Bernard,1
+01|72154,Commune,La Flèche,1
+01|72135,Commune,La Fontaine-Saint-Martin,1
+01|85096,Commune,La Garnache,1
+01|85097,Commune,La Gaubretière,1
+01|85098,Commune,La Genétouze (85),1
+01|53108,Commune,La Gravelle,1
+01|44224,Commune,La Grigonnais,1
+01|72147,Commune,La Guierche,1
+01|85106,Commune,La Guérinière,1
+01|44070,Commune,La Haie-Fouassière,1
+01|53111,Commune,La Haie-Traversaine,1
+01|49161,Commune,La Jaille-Yvon,1
+01|85115,Commune,La Jaudonnière,1
+01|85116,Commune,La Jonchère,1
+01|49171,Commune,La Lande-Chasles,1
+01|44083,Commune,La Limouzinière,1
+01|44090,Commune,La Marne,1
+01|85140,Commune,La Meilleraie-Tillay,1
+01|44095,Commune,La Meilleraye-de-Bretagne,1
+01|85142,Commune,La Merlatière,1
+01|72198,Commune,La Milesse,1
+01|44101,Commune,La Montagne (44),1
+01|49201,Commune,La Ménitré,1
+01|53173,Commune,La Pallu,1
+01|49237,Commune,La Pellerine (49),1
+01|53177,Commune,La Pellerine (53),1
+01|49240,Commune,La Plaine,1
+01|44126,Commune,La Plaine-sur-Mer,1
+01|44127,Commune,La Planche,1
+01|49247,Commune,La Possonnière,1
+01|72249,Commune,La Quinte,1
+01|85186,Commune,La Rabatelière,1
+01|44140,Commune,La Regrippière,1
+01|44141,Commune,La Remaudière,1
+01|44222,Commune,La Roche-Blanche (44),1
+01|53136,Commune,La Roche-Neuville,1
+01|85191,Commune,La Roche-sur-Yon,1
+01|49260,Commune,La Romagne (49),1
+01|53192,Commune,La Rouaudière,1
+01|53191,Commune,La Roë,1
+01|85188,Commune,La Réorthe,1
+01|53258,Commune,La Selle-Craonnaise,1
+01|72346,Commune,La Suze-sur-Sarthe,1
+01|49332,Commune,La Séguinière,1
+01|85286,Commune,La Taillée,1
+01|85289,Commune,La Tardière,1
+01|49343,Commune,La Tessoualle,1
+01|85294,Commune,La Tranche-sur-Mer,1
+01|44211,Commune,La Turballe,1
+01|72155,Commune,Laigné-en-Belin,1
+01|85117,Commune,Lairoux,1
+01|72156,Commune,Lamnay,1
+01|85118,Commune,Landeronde,1
+01|85120,Commune,Landevieille,1
+01|53125,Commune,Landivy,1
+01|53126,Commune,Larchamp,1
+01|53127,Commune,Lassay-les-Châteaux,1
+01|53128,Commune,Laubrières,1
+01|53129,Commune,Launay-Villiers,1
+01|53130,Commune,Laval,1
+01|72157,Commune,Lavardin (72),1
+01|72158,Commune,Lavaré,1
+01|44080,Commune,Lavau-sur-Loire,1
+01|72160,Commune,Lavernat,1
+01|72022,Commune,Le Bailleul,1
+01|85022,Commune,Le Bernard,1
+01|44014,Commune,Le Bignon,1
+01|53030,Commune,Le Bignon-du-Maine,1
+01|85031,Commune,Le Boupère,1
+01|53039,Commune,Le Bourgneuf-la-Forêt,1
+01|72046,Commune,Le Breil-sur-Mérize,1
+01|53046,Commune,Le Buret,1
+01|44028,Commune,Le Cellier,1
+01|85050,Commune,Le Champ-Saint-Père,1
+01|49112,Commune,Le Coudray-Macouard,1
+01|44049,Commune,Le Croisic,1
+01|85088,Commune,Le Fenouiller,1
+01|53103,Commune,Le Genest-Saint-Isle,1
+01|85099,Commune,Le Girouard,1
+01|85101,Commune,Le Givre,1
+01|72143,Commune,Le Grand-Lucé,1
+01|72145,Commune,Le Grez,1
+01|85105,Commune,Le Gué-de-Velluire,1
+01|44062,Commune,Le Gâvre,1
+01|53112,Commune,Le Ham (53),1
+01|53116,Commune,Le Horps,1
+01|53118,Commune,Le Housseau-Brétignolles,1
+01|44079,Commune,Le Landreau,1
+01|85121,Commune,Le Langon,1
+01|49176,Commune,Le Lion-d'Angers,1
+01|44084,Commune,Le Loroux-Bottereau,1
+01|72172,Commune,Le Luart,1
+01|72176,Commune,Le Lude,1
+01|72181,Commune,Le Mans,1
+01|49193,Commune,Le May-sur-Èvre,1
+01|85139,Commune,Le Mazeau,1
+01|44117,Commune,Le Pallet,1
+01|53176,Commune,Le Pas,1
+01|44120,Commune,Le Pellerin,1
+01|85172,Commune,Le Perrier,1
+01|44124,Commune,Le Pin (44),1
+01|49241,Commune,Le Plessis-Grammoire,1
+01|85178,Commune,Le Poiré-sur-Vie,1
+01|44135,Commune,Le Pouliguen,1
+01|49253,Commune,Le Puy-Notre-Dame,1
+01|53190,Commune,Le Ribay,1
+01|85285,Commune,Le Tablier,1
+01|44203,Commune,Le Temple-de-Bretagne,1
+01|72362,Commune,Le Tronchet (72),1
+01|44081,Commune,Legé,1
+01|85152,Commune,Les Achards,1
+01|72015,Commune,Les Aulneaux,1
+01|49138,Commune,Les Bois d'Anjou,1
+01|85038,Commune,Les Brouzils,1
+01|49058,Commune,Les Cerqueux,1
+01|85082,Commune,Les Epesses,1
+01|49167,Commune,Les Garennes sur Loire,1
+01|49080,Commune,Les Hauts-d'Anjou,1
+01|85109,Commune,Les Herbiers,1
+01|85119,Commune,Les Landes-Genusson,1
+01|85129,Commune,Les Lucs-sur-Boulogne,1
+01|85131,Commune,Les Magnils-Reigniers,1
+01|44106,Commune,Les Moutiers-en-Retz,1
+01|72192,Commune,Les Mées (72),1
+01|85175,Commune,Les Pineaux,1
+01|49246,Commune,Les Ponts-de-Cé,1
+01|49257,Commune,Les Rairies,1
+01|85194,Commune,Les Sables-d'Olonne,1
+01|44198,Commune,Les Sorinières,1
+01|44205,Commune,Les Touches,1
+01|49359,Commune,Les Ulmes,1
+01|85177,Commune,Les Velluire-sur-Vendée,1
+01|53131,Commune,Lesbois,1
+01|53132,Commune,Levaré,1
+01|72161,Commune,Lhomme,1
+01|85123,Commune,Liez (85),1
+01|53133,Commune,Lignières-Orgères,1
+01|44082,Commune,Ligné (44),1
+01|72163,Commune,Ligron,1
+01|53134,Commune,Livet,1
+01|72164,Commune,Livet-en-Saosnois,1
+01|53135,Commune,Livré-la-Touche,1
+01|85125,Commune,Loge-Fougereuse,1
+01|72262,Commune,Loir en Vallée,1
+01|49307,Commune,Loire-Authion,1
+01|44213,Commune,Loireauxence,1
+01|53137,Commune,Loiron-Ruillé,1
+01|49178,Commune,Loiré,1
+01|72165,Commune,Lombron,1
+01|85127,Commune,Longeville-sur-Mer,1
+01|72166,Commune,Longnes (72),1
+01|49200,Commune,Longuenée-en-Anjou,1
+01|49180,Commune,Longué-Jumelles,1
+01|85126,Commune,Longèves (85),1
+01|72167,Commune,Louailles,1
+01|44085,Commune,Louisfert,1
+01|53139,Commune,Loupfougères,1
+01|72169,Commune,Louplande,1
+01|49182,Commune,Louresse-Rochemenier,1
+01|53140,Commune,Louverné,1
+01|72170,Commune,Louvigny (72),1
+01|53141,Commune,Louvigné,1
+01|72171,Commune,Louzes,1
+01|72168,Commune,Loué,1
+01|72173,Commune,Luceau,1
+01|72175,Commune,Luché-Pringé,1
+01|72174,Commune,Lucé-sous-Ballon,1
+01|44086,Commune,Lusanger,1
+01|85128,Commune,Luçon,1
+01|49373,Commune,Lys-Haut-Layon,1
+01|44087,Commune,Machecoul-Saint-Même,1
+01|85130,Commune,Maché,1
+01|53142,Commune,Madré,1
+01|72177,Commune,Maigné,1
+01|85133,Commune,Maillezais,1
+01|85132,Commune,Maillé (85),1
+01|44088,Commune,Maisdon-sur-Sèvre,1
+01|72178,Commune,Maisoncelles (72),1
+01|53143,Commune,Maisoncelles-du-Maine,1
+01|72179,Commune,Malicorne-sur-Sarthe,1
+01|85134,Commune,Mallièvre,1
+01|44089,Commune,Malville,1
+01|72180,Commune,Mamers,1
+01|72182,Commune,Mansigné,1
+01|53144,Commune,Marcillé-la-Ville,1
+01|49188,Commune,Marcé,1
+01|72184,Commune,Mareil-en-Champagne,1
+01|72185,Commune,Mareil-sur-Loir,1
+01|72186,Commune,Maresché,1
+01|85135,Commune,Mareuil-sur-Lay-Dissais,1
+01|72187,Commune,Marigné-Laillé,1
+01|53145,Commune,Marigné-Peuton,1
+01|85136,Commune,Marillet,1
+01|72189,Commune,Marolles-les-Braults,1
+01|72190,Commune,Marolles-lès-Saint-Calais,1
+01|72188,Commune,Marollette,1
+01|44091,Commune,Marsac-sur-Don,1
+01|85137,Commune,Marsais-Sainte-Radégonde,1
+01|53146,Commune,Martigné-sur-Mayenne,1
+01|85138,Commune,Martinet,1
+01|72183,Commune,Marçon,1
+01|44092,Commune,Massérac,1
+01|49244,Commune,Mauges-sur-Loire,1
+01|49192,Commune,Maulévrier,1
+01|44094,Commune,Mauves-sur-Loire,1
+01|53147,Commune,Mayenne,1
+01|72191,Commune,Mayet,1
+01|49195,Commune,Mazières-en-Mauges,1
+01|49194,Commune,Mazé-Milon,1
+01|72193,Commune,Melleray,1
+01|85141,Commune,Menomblet,1
+01|85143,Commune,Mervent,1
+01|53152,Commune,Meslay-du-Maine,1
+01|85144,Commune,Mesnard-la-Barotière,1
+01|44097,Commune,Mesquer,1
+01|72194,Commune,Meurcé,1
+01|49205,Commune,Miré,1
+01|44098,Commune,Missillac,1
+01|44099,Commune,Moisdon-la-Rivière,1
+01|72199,Commune,Moitron-sur-Sarthe,1
+01|72200,Commune,Moncé-en-Belin,1
+01|72201,Commune,Moncé-en-Saosnois,1
+01|72202,Commune,Monhoudou,1
+01|44100,Commune,Monnières (44),1
+01|85145,Commune,Monsireigne,1
+01|72211,Commune,Mont-Saint-Jean (72),1
+01|85146,Commune,Montaigu-Vendée,1
+01|72204,Commune,Montaillé,1
+01|53154,Commune,Montaudin,1
+01|44102,Commune,Montbert,1
+01|72205,Commune,Montbizot,1
+01|53155,Commune,Montenay,1
+01|53156,Commune,Montflours,1
+01|72241,Commune,Montfort-le-Gesnois,1
+01|53157,Commune,Montigné-le-Brillant,1
+01|49209,Commune,Montigné-lès-Rairies,1
+01|49211,Commune,Montilliers,1
+01|53158,Commune,Montjean (53),1
+01|72208,Commune,Montmirail (72),1
+01|44103,Commune,Montoir-de-Bretagne,1
+01|85147,Commune,Montournais,1
+01|44104,Commune,Montrelais,1
+01|85148,Commune,Montreuil (85),1
+01|49215,Commune,Montreuil-Bellay,1
+01|49214,Commune,Montreuil-Juigné,1
+01|53160,Commune,Montreuil-Poulay,1
+01|72209,Commune,Montreuil-le-Chétif,1
+01|72210,Commune,Montreuil-le-Henri,1
+01|49216,Commune,Montreuil-sur-Loir,1
+01|49217,Commune,Montreuil-sur-Maine,1
+01|49218,Commune,Montrevault-sur-Èvre,1
+01|85197,Commune,Montréverd,1
+01|49219,Commune,Montsoreau,1
+01|53161,Commune,Montsûrs,1
+01|72071,Commune,Montval-sur-Loir,1
+01|49220,Commune,Morannes sur Sarthe-Daumeray,1
+01|85149,Commune,Moreilles,1
+01|85151,Commune,Mortagne-sur-Sèvre,1
+01|44105,Commune,Mouais,1
+01|85153,Commune,Mouchamps,1
+01|85154,Commune,Mouilleron-Saint-Germain,1
+01|85155,Commune,Mouilleron-le-Captif,1
+01|53162,Commune,Moulay,1
+01|49221,Commune,Mouliherne,1
+01|72212,Commune,Moulins-le-Carbonnel,1
+01|85156,Commune,Moutiers-les-Mauxfaits,1
+01|85157,Commune,Moutiers-sur-le-Lay,1
+01|44107,Commune,Mouzeil,1
+01|85158,Commune,Mouzeuil-Saint-Martin,1
+01|44108,Commune,Mouzillon,1
+01|49222,Commune,Mozé-sur-Louet,1
+01|72213,Commune,Mulsanne,1
+01|53148,Commune,Mée,1
+01|53150,Commune,Ménil,1
+01|53151,Commune,Méral,1
+01|44096,Commune,Mésanger,1
+01|53153,Commune,Mézangers,1
+01|72195,Commune,Mézeray,1
+01|72197,Commune,Mézières-sous-Lavardin,1
+01|72196,Commune,Mézières-sur-Ponthouin,1
+01|49223,Commune,Mûrs-Erigné,1
+01|85159,Commune,Nalliers (85),1
+01|44109,Commune,Nantes,1
+01|72214,Commune,Nauvay,1
+01|53163,Commune,Neau,1
+01|85160,Commune,Nesmy,1
+01|72215,Commune,Neufchâtel-en-Saosnois,1
+01|53164,Commune,Neuilly-le-Vendin,1
+01|49224,Commune,Neuillé,1
+01|72216,Commune,Neuvillalais,1
+01|72217,Commune,Neuville-sur-Sarthe,1
+01|72218,Commune,Neuvillette-en-Charnie,1
+01|53165,Commune,Niafles,1
+01|85161,Commune,Nieul-le-Dolent,1
+01|72220,Commune,Nogent-le-Bernard,1
+01|72221,Commune,Nogent-sur-Loir,1
+01|85163,Commune,Noirmoutier-en-l'Île,1
+01|44110,Commune,Nort-sur-Erdre,1
+01|85164,Commune,Notre-Dame-de-Monts,1
+01|85189,Commune,Notre-Dame-de-Riez,1
+01|44111,Commune,Notre-Dame-des-Landes,1
+01|72232,Commune,Notre-Dame-du-Pé,1
+01|72222,Commune,Nouans,1
+01|44112,Commune,Noyal-sur-Brutz,1
+01|49228,Commune,Noyant-Villages,1
+01|72223,Commune,Noyen-sur-Sarthe,1
+01|44113,Commune,Nozay (44),1
+01|49231,Commune,Nuaillé,1
+01|72224,Commune,Nuillé-le-Jalais,1
+01|53168,Commune,Nuillé-sur-Vicoin,1
+01|53170,Commune,Oisseau,1
+01|72225,Commune,Oisseau-le-Petit,1
+01|72226,Commune,Oizé,1
+01|53169,Commune,Olivet (53),1
+01|49248,Commune,Ombrée d'Anjou,1
+01|53172,Commune,Origné,1
+01|44114,Commune,Orvault,1
+01|49069,Commune,Orée d'Anjou,1
+01|44115,Commune,Oudon,1
+01|44116,Commune,Paimbœuf,1
+01|85169,Commune,Palluau,1
+01|44118,Commune,Pannecé,1
+01|72227,Commune,Panon,1
+01|72228,Commune,Parcé-sur-Sarthe,1
+01|72229,Commune,Parennes,1
+01|72231,Commune,Parigné-l'Évêque,1
+01|72230,Commune,Parigné-le-Pôlin,1
+01|53174,Commune,Parigné-sur-Braye,1
+01|49235,Commune,Parnay (49),1
+01|53175,Commune,Parné-sur-Roc,1
+01|49236,Commune,Passavant-sur-Layon,1
+01|44119,Commune,Paulx,1
+01|72233,Commune,Peray,1
+01|44121,Commune,Petit-Auverné,1
+01|44122,Commune,Petit-Mars,1
+01|85174,Commune,Petosse,1
+01|53178,Commune,Peuton,1
+01|72234,Commune,Pezé-le-Robert,1
+01|72235,Commune,Piacé,1
+01|44123,Commune,Pierric,1
+01|72236,Commune,Pincé,1
+01|44125,Commune,Piriac-sur-Mer,1
+01|72237,Commune,Pirmil,1
+01|85176,Commune,Pissotte,1
+01|72238,Commune,Pizieux,1
+01|53179,Commune,Placé,1
+01|44128,Commune,Plessé,1
+01|72239,Commune,Poillé-sur-Vègre,1
+01|85179,Commune,Poiroux,1
+01|53180,Commune,Pommerieux,1
+01|44130,Commune,Pont-Saint-Martin,1
+01|44129,Commune,Pontchâteau,1
+01|53181,Commune,Pontmain,1
+01|72243,Commune,Pontvallain,1
+01|44131,Commune,Pornic,1
+01|44132,Commune,Pornichet,1
+01|53182,Commune,Port-Brillet,1
+01|44133,Commune,Port-Saint-Père,1
+01|85181,Commune,Pouillé (85),1
+01|44134,Commune,Pouillé-les-Côteaux,1
+01|85182,Commune,Pouzauges,1
+01|44137,Commune,Prinquiau,1
+01|72248,Commune,Pruillé-l'Éguillé,1
+01|72247,Commune,Pruillé-le-Chétif,1
+01|53185,Commune,Pré-en-Pail-Saint-Samson,1
+01|53184,Commune,Préaux (53),1
+01|72244,Commune,Précigné,1
+01|53124,Commune,Prée-d'Anjou,1
+01|44136,Commune,Préfailles,1
+01|72245,Commune,Préval,1
+01|72246,Commune,Prévelles,1
+01|44138,Commune,Puceul,1
+01|85184,Commune,Puy-de-Serre,1
+01|85185,Commune,Puyravault (85),1
+01|85171,Commune,Péault,1
+01|53186,Commune,Quelaines-Saint-Gault,1
+01|44139,Commune,Quilly (44),1
+01|72250,Commune,Rahay,1
+01|53187,Commune,Ravigny,1
+01|44142,Commune,Remouillé,1
+01|53188,Commune,Renazé,1
+01|53189,Commune,Rennes-en-Grenouilles,1
+01|72251,Commune,René,1
+01|72252,Commune,Requeil,1
+01|44143,Commune,Rezé,1
+01|44144,Commune,Riaillé,1
+01|85213,Commune,Rives de l'Yon,1
+01|85162,Commune,Rives-d'Autise,1
+01|49377,Commune,Rives-du-Loir-en-Anjou,1
+01|49259,Commune,Rochefort-sur-Loire,1
+01|85190,Commune,Rocheservière,1
+01|85192,Commune,Rochetrejoux,1
+01|85193,Commune,Rosnay (85),1
+01|49262,Commune,Rou-Marson,1
+01|44145,Commune,Rouans,1
+01|72254,Commune,Rouessé-Fontaine,1
+01|72255,Commune,Rouessé-Vassé,1
+01|72256,Commune,Rouez,1
+01|44146,Commune,Rougé,1
+01|72257,Commune,Rouillon,1
+01|72259,Commune,Rouperroux-le-Coquet,1
+01|72253,Commune,Roëzé-sur-Sarthe,1
+01|72260,Commune,Ruaudin,1
+01|44148,Commune,Ruffigné,1
+01|53193,Commune,Ruillé-Froid-Fonds,1
+01|72261,Commune,Ruillé-en-Champagne,1
+01|85187,Commune,Réaumur,1
+01|72264,Commune,Sablé-sur-Sarthe,1
+01|53195,Commune,Sacé,1
+01|44149,Commune,Saffré,1
+01|72265,Commune,Saint-Aignan (72),1
+01|44150,Commune,Saint-Aignan-Grandlieu,1
+01|53196,Commune,Saint-Aignan-de-Couptrain,1
+01|53197,Commune,Saint-Aignan-sur-Roë,1
+01|85196,Commune,Saint-André-Goule-d'Oie,1
+01|44151,Commune,Saint-André-des-Eaux (44),1
+01|53199,Commune,Saint-Aubin-Fosse-Louvain,1
+01|72266,Commune,Saint-Aubin-de-Locquenay,1
+01|44153,Commune,Saint-Aubin-des-Châteaux,1
+01|72267,Commune,Saint-Aubin-des-Coudrais,1
+01|85198,Commune,Saint-Aubin-des-Ormeaux,1
+01|53198,Commune,Saint-Aubin-du-Désert,1
+01|85199,Commune,Saint-Aubin-la-Plaine,1
+01|49266,Commune,Saint-Augustin-des-Bois,1
+01|85200,Commune,Saint-Avaugourd-des-Landes,1
+01|49267,Commune,Saint-Barthélemy-d'Anjou,1
+01|53200,Commune,Saint-Baudelle,1
+01|85201,Commune,Saint-Benoist-sur-Mer,1
+01|53201,Commune,Saint-Berthevin,1
+01|53202,Commune,Saint-Berthevin-la-Tannière,1
+01|72268,Commune,Saint-Biez-en-Belin,1
+01|44154,Commune,Saint-Brevin-les-Pins,1
+01|53203,Commune,Saint-Brice (53),1
+01|72269,Commune,Saint-Calais,1
+01|53204,Commune,Saint-Calais-du-Désert,1
+01|72270,Commune,Saint-Calez-en-Saosnois,1
+01|53206,Commune,Saint-Charles-la-Forêt,1
+01|49269,Commune,Saint-Christophe-du-Bois,1
+01|72273,Commune,Saint-Christophe-du-Jambet,1
+01|85204,Commune,Saint-Christophe-du-Ligneron,1
+01|72274,Commune,Saint-Christophe-en-Champagne,1
+01|49271,Commune,Saint-Clément-de-la-Place,1
+01|49272,Commune,Saint-Clément-des-Levées,1
+01|44155,Commune,Saint-Colomban,1
+01|72275,Commune,Saint-Corneille,1
+01|72276,Commune,Saint-Cosme-en-Vairais,1
+01|85205,Commune,Saint-Cyr-des-Gâts,1
+01|53208,Commune,Saint-Cyr-en-Pail,1
+01|85206,Commune,Saint-Cyr-en-Talmondais,1
+01|53209,Commune,Saint-Cyr-le-Gravelais,1
+01|72271,Commune,Saint-Célerin,1
+01|53210,Commune,Saint-Denis-d'Anjou,1
+01|72278,Commune,Saint-Denis-d'Orques,1
+01|53211,Commune,Saint-Denis-de-Gastines,1
+01|72277,Commune,Saint-Denis-des-Coudrais,1
+01|53212,Commune,Saint-Denis-du-Maine,1
+01|85207,Commune,Saint-Denis-du-Payré,1
+01|85208,Commune,Saint-Denis-la-Chevasse,1
+01|53213,Commune,Saint-Ellier-du-Maine,1
+01|53214,Commune,Saint-Erblon (53),1
+01|44159,Commune,Saint-Fiacre-sur-Maine,1
+01|53216,Commune,Saint-Fraimbault-de-Prières,1
+01|85215,Commune,Saint-Fulgent,1
+01|53219,Commune,Saint-Georges-Buttavent,1
+01|85218,Commune,Saint-Georges-de-Pointindoux,1
+01|72279,Commune,Saint-Georges-de-la-Couée,1
+01|72280,Commune,Saint-Georges-du-Bois (72),1
+01|72281,Commune,Saint-Georges-du-Rosay,1
+01|53220,Commune,Saint-Georges-le-Fléchard,1
+01|72282,Commune,Saint-Georges-le-Gaultier,1
+01|53221,Commune,Saint-Georges-sur-Erve,1
+01|49283,Commune,Saint-Georges-sur-Loire,1
+01|53222,Commune,Saint-Germain-d'Anxure,1
+01|72283,Commune,Saint-Germain-d'Arcé,1
+01|53223,Commune,Saint-Germain-de-Coulamer,1
+01|85220,Commune,Saint-Germain-de-Prinçay,1
+01|49284,Commune,Saint-Germain-des-Prés (49),1
+01|53224,Commune,Saint-Germain-le-Fouilloux,1
+01|53225,Commune,Saint-Germain-le-Guillaume,1
+01|85221,Commune,Saint-Gervais (85),1
+01|72286,Commune,Saint-Gervais-de-Vic,1
+01|72287,Commune,Saint-Gervais-en-Belin,1
+01|44161,Commune,Saint-Gildas-des-Bois,1
+01|85222,Commune,Saint-Gilles-Croix-de-Vie,1
+01|44162,Commune,Saint-Herblain,1
+01|44164,Commune,Saint-Hilaire-de-Chaléons,1
+01|44165,Commune,Saint-Hilaire-de-Clisson,1
+01|85226,Commune,Saint-Hilaire-de-Riez,1
+01|85229,Commune,Saint-Hilaire-de-Voust,1
+01|85227,Commune,Saint-Hilaire-des-Loges,1
+01|53226,Commune,Saint-Hilaire-du-Maine,1
+01|85231,Commune,Saint-Hilaire-la-Forêt,1
+01|85232,Commune,Saint-Hilaire-le-Vouhis,1
+01|72290,Commune,Saint-Jean-d'Assé,1
+01|85233,Commune,Saint-Jean-de-Beugné,1
+01|44166,Commune,Saint-Jean-de-Boiseau,1
+01|85234,Commune,Saint-Jean-de-Monts,1
+01|49288,Commune,Saint-Jean-de-la-Croix,1
+01|72291,Commune,Saint-Jean-de-la-Motte,1
+01|72292,Commune,Saint-Jean-des-Échelles,1
+01|72293,Commune,Saint-Jean-du-Bois,1
+01|53229,Commune,Saint-Jean-sur-Mayenne,1
+01|44168,Commune,Saint-Joachim,1
+01|85235,Commune,Saint-Juire-Champgillon,1
+01|44169,Commune,Saint-Julien-de-Concelles,1
+01|44170,Commune,Saint-Julien-de-Vouvantes,1
+01|85236,Commune,Saint-Julien-des-Landes,1
+01|53230,Commune,Saint-Julien-du-Terroux,1
+01|49291,Commune,Saint-Just-sur-Dive,1
+01|49294,Commune,Saint-Lambert-la-Potherie,1
+01|85237,Commune,Saint-Laurent-de-la-Salle,1
+01|85238,Commune,Saint-Laurent-sur-Sèvre,1
+01|72295,Commune,Saint-Longis,1
+01|53233,Commune,Saint-Loup-du-Dorat,1
+01|53234,Commune,Saint-Loup-du-Gast,1
+01|44173,Commune,Saint-Lumine-de-Clisson,1
+01|44174,Commune,Saint-Lumine-de-Coutais,1
+01|44175,Commune,Saint-Lyphard,1
+01|53232,Commune,Saint-Léger (53),1
+01|49298,Commune,Saint-Léger-de-Linières,1
+01|44171,Commune,Saint-Léger-les-Vignes,1
+01|49299,Commune,Saint-Léger-sous-Cholet,1
+01|72294,Commune,Saint-Léonard-des-Bois,1
+01|49302,Commune,Saint-Macaire-du-Bois,1
+01|72296,Commune,Saint-Maixent,1
+01|85239,Commune,Saint-Maixent-sur-Vie,1
+01|44176,Commune,Saint-Malo-de-Guersac,1
+01|85240,Commune,Saint-Malô-du-Bois,1
+01|72297,Commune,Saint-Marceau (72),1
+01|72299,Commune,Saint-Mars-d'Outillé,1
+01|44178,Commune,Saint-Mars-de-Coutais,1
+01|72298,Commune,Saint-Mars-de-Locquenay,1
+01|44179,Commune,Saint-Mars-du-Désert (44),1
+01|53236,Commune,Saint-Mars-du-Désert (53),1
+01|72300,Commune,Saint-Mars-la-Brière,1
+01|85242,Commune,Saint-Mars-la-Réorthe,1
+01|53237,Commune,Saint-Mars-sur-Colmont,1
+01|53238,Commune,Saint-Mars-sur-la-Futaie,1
+01|85248,Commune,Saint-Martin-Lars-en-Sainte-Hermine,1
+01|85244,Commune,Saint-Martin-de-Fraigneau,1
+01|85245,Commune,Saint-Martin-des-Fontaines,1
+01|72302,Commune,Saint-Martin-des-Monts,1
+01|85246,Commune,Saint-Martin-des-Noyers,1
+01|85247,Commune,Saint-Martin-des-Tilleuls,1
+01|49306,Commune,Saint-Martin-du-Fouilloux (49),1
+01|53240,Commune,Saint-Martin-du-Limet,1
+01|85250,Commune,Saint-Mathurin,1
+01|85251,Commune,Saint-Maurice-des-Noues,1
+01|85252,Commune,Saint-Maurice-le-Girard,1
+01|49308,Commune,Saint-Melaine-sur-Aubance,1
+01|85254,Commune,Saint-Mesmin (85),1
+01|44182,Commune,Saint-Michel-Chef-Chef,1
+01|72303,Commune,Saint-Michel-de-Chavaignes,1
+01|53242,Commune,Saint-Michel-de-la-Roë,1
+01|85255,Commune,Saint-Michel-en-l'Herm,1
+01|85256,Commune,Saint-Michel-le-Cloucq,1
+01|44183,Commune,Saint-Molf,1
+01|44184,Commune,Saint-Nazaire (44),1
+01|44185,Commune,Saint-Nicolas-de-Redon,1
+01|72305,Commune,Saint-Ouen-de-Mimbré,1
+01|72306,Commune,Saint-Ouen-en-Belin,1
+01|72307,Commune,Saint-Ouen-en-Champagne,1
+01|53243,Commune,Saint-Ouën-des-Toits,1
+01|72308,Commune,Saint-Paterne - Le Chevain,1
+01|85260,Commune,Saint-Paul-Mont-Penit,1
+01|49310,Commune,Saint-Paul-du-Bois,1
+01|85259,Commune,Saint-Paul-en-Pareds,1
+01|72309,Commune,Saint-Paul-le-Gaultier,1
+01|72310,Commune,Saint-Pavace,1
+01|85262,Commune,Saint-Philbert-de-Bouaine,1
+01|44188,Commune,Saint-Philbert-de-Grand-Lieu,1
+01|49311,Commune,Saint-Philbert-du-Peuple,1
+01|72311,Commune,Saint-Pierre-de-Chevillé,1
+01|72312,Commune,Saint-Pierre-des-Bois,1
+01|53245,Commune,Saint-Pierre-des-Landes,1
+01|53246,Commune,Saint-Pierre-des-Nids,1
+01|72313,Commune,Saint-Pierre-des-Ormes,1
+01|85264,Commune,Saint-Pierre-du-Chemin,1
+01|72314,Commune,Saint-Pierre-du-Lorouër,1
+01|53247,Commune,Saint-Pierre-la-Cour,1
+01|85265,Commune,Saint-Pierre-le-Vieux (85),1
+01|53248,Commune,Saint-Pierre-sur-Erve,1
+01|53250,Commune,Saint-Poix,1
+01|85266,Commune,Saint-Prouant,1
+01|44187,Commune,Saint-Père-en-Retz,1
+01|53251,Commune,Saint-Quentin-les-Anges,1
+01|72315,Commune,Saint-Rémy-de-Sillé,1
+01|72316,Commune,Saint-Rémy-des-Monts,1
+01|72317,Commune,Saint-Rémy-du-Val,1
+01|85268,Commune,Saint-Révérend,1
+01|72320,Commune,Saint-Saturnin (72),1
+01|53253,Commune,Saint-Saturnin-du-Limet,1
+01|49321,Commune,Saint-Sigismond (49),1
+01|85269,Commune,Saint-Sigismond (85),1
+01|85271,Commune,Saint-Sulpice-en-Pareds,1
+01|72321,Commune,Saint-Symphorien (72),1
+01|44190,Commune,Saint-Sébastien-sur-Loire,1
+01|53256,Commune,Saint-Thomas-de-Courceriers,1
+01|72322,Commune,Saint-Ulphace,1
+01|85273,Commune,Saint-Urbain (85),1
+01|85274,Commune,Saint-Valérien (85),1
+01|44192,Commune,Saint-Viaud,1
+01|72323,Commune,Saint-Victeur,1
+01|85276,Commune,Saint-Vincent-Sterlanges,1
+01|44193,Commune,Saint-Vincent-des-Landes,1
+01|72324,Commune,Saint-Vincent-des-Prés (72),1
+01|72325,Commune,Saint-Vincent-du-Lorouër,1
+01|85277,Commune,Saint-Vincent-sur-Graon,1
+01|85278,Commune,Saint-Vincent-sur-Jard,1
+01|85209,Commune,Saint-Étienne-de-Brillouet,1
+01|44157,Commune,Saint-Étienne-de-Mer-Morte,1
+01|44158,Commune,Saint-Étienne-de-Montluc,1
+01|85210,Commune,Saint-Étienne-du-Bois (85),1
+01|44152,Commune,Sainte-Anne-sur-Brivet,1
+01|85202,Commune,Sainte-Cécile (85),1
+01|72272,Commune,Sainte-Cérotte,1
+01|85211,Commune,Sainte-Flaive-des-Loups,1
+01|85214,Commune,Sainte-Foy (85),1
+01|85216,Commune,Sainte-Gemme-la-Plaine,1
+01|53218,Commune,Sainte-Gemmes-le-Robert,1
+01|49278,Commune,Sainte-Gemmes-sur-Loire,1
+01|85223,Commune,Sainte-Hermine,1
+01|72289,Commune,Sainte-Jamme-sur-Sarthe,1
+01|44172,Commune,Sainte-Luce-sur-Loire,1
+01|53235,Commune,Sainte-Marie-du-Bois,1
+01|44186,Commune,Sainte-Pazanne,1
+01|85261,Commune,Sainte-Pexine,1
+01|85267,Commune,Sainte-Radégonde-des-Noyers,1
+01|44189,Commune,Sainte-Reine-de-Bretagne,1
+01|72319,Commune,Sainte-Sabine-sur-Longève,1
+01|53255,Commune,Sainte-Suzanne-et-Chammes,1
+01|85280,Commune,Sallertaine,1
+01|72326,Commune,Saosnes,1
+01|72327,Commune,Sarcé,1
+01|72328,Commune,Sargé-lès-le-Mans,1
+01|49326,Commune,Sarrigné,1
+01|53257,Commune,Saulges,1
+01|49328,Commune,Saumur,1
+01|44194,Commune,Sautron,1
+01|44195,Commune,Savenay,1
+01|49329,Commune,Savennières,1
+01|72329,Commune,Savigné-l'Évêque,1
+01|72330,Commune,Savigné-sous-le-Lude,1
+01|49330,Commune,Sceaux-d'Anjou,1
+01|72331,Commune,Sceaux-sur-Huisne,1
+01|49331,Commune,Segré-en-Anjou Bleu,1
+01|49333,Commune,Seiches-sur-le-Loir,1
+01|72333,Commune,Semur-en-Vallon,1
+01|53259,Commune,Senonnes,1
+01|49334,Commune,Sermaise (49),1
+01|85282,Commune,Sigournais,1
+01|72334,Commune,Sillé-le-Guillaume,1
+01|72335,Commune,Sillé-le-Philippe,1
+01|53260,Commune,Simplé,1
+01|44197,Commune,Sion-les-Mines,1
+01|72336,Commune,Solesmes (72),1
+01|49336,Commune,Somloire,1
+01|53261,Commune,Soucé,1
+01|44199,Commune,Soudan (44),1
+01|72337,Commune,Sougé-le-Ganelon,1
+01|72338,Commune,Souillé,1
+01|49338,Commune,Soulaines-sur-Aubance,1
+01|49339,Commune,Soulaire-et-Bourg,1
+01|53262,Commune,Soulgé-sur-Ouette,1
+01|72339,Commune,Souligné-Flacé,1
+01|72340,Commune,Souligné-sous-Ballon,1
+01|72341,Commune,Soulitré,1
+01|85284,Commune,Soullans,1
+01|44200,Commune,Soulvache,1
+01|72342,Commune,Souvigné-sur-Même,1
+01|72343,Commune,Souvigné-sur-Sarthe,1
+01|49341,Commune,Souzay-Champigny,1
+01|72344,Commune,Spay,1
+01|44201,Commune,Sucé-sur-Erdre,1
+01|72345,Commune,Surfonds,1
+01|49301,Commune,Sèvremoine,1
+01|85090,Commune,Sèvremont,1
+01|72332,Commune,Ségrie,1
+01|85281,Commune,Sérigné,1
+01|44196,Commune,Sévérac,1
+01|85287,Commune,Tallud-Sainte-Gemme,1
+01|85288,Commune,Talmont-Saint-Hilaire,1
+01|72348,Commune,Tassillé,1
+01|72347,Commune,Tassé,1
+01|44202,Commune,Teillé (44),1
+01|72349,Commune,Teillé (72),1
+01|72350,Commune,Teloché,1
+01|72351,Commune,Tennie,1
+01|49086,Commune,Terranjou,1
+01|72352,Commune,Terrehault,1
+01|85290,Commune,Thiré,1
+01|72354,Commune,Thoigné,1
+01|72355,Commune,Thoiré-sous-Contensor,1
+01|72356,Commune,Thoiré-sur-Dinan,1
+01|85291,Commune,Thorigny,1
+01|49344,Commune,Thorigné-d'Anjou,1
+01|53264,Commune,Thorigné-en-Charnie,1
+01|72358,Commune,Thorigné-sur-Dué,1
+01|72357,Commune,Thorée-les-Pins,1
+01|85292,Commune,Thouarsais-Bouildroux,1
+01|44204,Commune,Thouaré-sur-Loire,1
+01|53263,Commune,Thubœuf,1
+01|72353,Commune,Théligny,1
+01|49347,Commune,Tiercé,1
+01|85293,Commune,Tiffauges,1
+01|53265,Commune,Torcé-Viviers-en-Charnie,1
+01|72359,Commune,Torcé-en-Vallée,1
+01|49352,Commune,Toutlemonde,1
+01|44206,Commune,Touvois,1
+01|72360,Commune,Trangé,1
+01|53266,Commune,Trans,1
+01|44207,Commune,Trans-sur-Erdre,1
+01|44208,Commune,Treffieux,1
+01|44209,Commune,Treillières,1
+01|85295,Commune,Treize-Septiers,1
+01|85296,Commune,Treize-Vents,1
+01|72361,Commune,Tresson,1
+01|85297,Commune,Triaize,1
+01|44210,Commune,Trignac,1
+01|49353,Commune,Trélazé,1
+01|49355,Commune,Trémentines,1
+01|49003,Commune,Tuffalun,1
+01|72363,Commune,Tuffé Val de la Chéronne,1
+01|49358,Commune,Turquant,1
+01|72364,Commune,Vaas,1
+01|53267,Commune,Vaiges,1
+01|44163,Commune,Vair-sur-Loire,1
+01|85298,Commune,Vairé,1
+01|49183,Commune,Val d'Erdre-Auxence,1
+01|72128,Commune,Val-d'Étangson,1
+01|49292,Commune,Val-du-Layon,1
+01|53017,Commune,Val-du-Maine,1
+01|72366,Commune,Valennes,1
+01|44212,Commune,Vallet,1
+01|72367,Commune,Vallon-sur-Gée,1
+01|44180,Commune,Vallons-de-l'Erdre,1
+01|72368,Commune,Vancé,1
+01|49361,Commune,Varennes-sur-Loire,1
+01|49362,Commune,Varrains,1
+01|49364,Commune,Vaudelnay,1
+01|53269,Commune,Vautorte,1
+01|44214,Commune,Vay,1
+01|85300,Commune,Venansault,1
+01|85301,Commune,Vendrennes,1
+01|49368,Commune,Vernantes,1
+01|72369,Commune,Verneil-le-Chétif,1
+01|72370,Commune,Vernie,1
+01|49369,Commune,Vernoil-le-Fourrier,1
+01|49370,Commune,Verrie,1
+01|49323,Commune,Verrières-en-Anjou,1
+01|44215,Commune,Vertou,1
+01|49371,Commune,Vezins,1
+01|72372,Commune,Vezot,1
+01|72373,Commune,Vibraye,1
+01|44216,Commune,Vieillevigne (44),1
+01|53270,Commune,Vieuvy,1
+01|44217,Commune,Vigneux-de-Bretagne,1
+01|72374,Commune,Villaines-la-Carelle,1
+01|72375,Commune,Villaines-la-Gonais,1
+01|53271,Commune,Villaines-la-Juhel,1
+01|72376,Commune,Villaines-sous-Lucé,1
+01|72377,Commune,Villaines-sous-Malicorne,1
+01|49374,Commune,Villebernier,1
+01|72137,Commune,Villeneuve-en-Perseigne,1
+01|44021,Commune,Villeneuve-en-Retz,1
+01|53272,Commune,Villepail,1
+01|44218,Commune,Villepot,1
+01|53273,Commune,Villiers-Charlemagne,1
+01|53249,Commune,Vimartin-sur-Orthe,1
+01|72378,Commune,Vion (72),1
+01|72379,Commune,Viré-en-Champagne,1
+01|72380,Commune,Vivoin,1
+01|49378,Commune,Vivy,1
+01|85303,Commune,Vix (85),1
+01|72381,Commune,Voivres-lès-le-Mans,1
+01|72382,Commune,Volnay (72),1
+01|85304,Commune,Vouillé-les-Marais,1
+01|53276,Commune,Voutré,1
+01|85305,Commune,Vouvant,1
+01|72383,Commune,Vouvray-sur-Huisne,1
+01|44220,Commune,Vue,1
+01|85306,Commune,Xanton-Chassenon,1
+01|72386,Commune,Yvré-l'Évêque,1
+01|72385,Commune,Yvré-le-Pôlin,1
+01|49381,Commune,Yzernay,1
+01|72124,Commune,Écommoy,1
+01|72125,Commune,Écorpain,1
+01|49129,Commune,Écouflant,1
+01|49130,Commune,Écuillé,1
+01|49131,Commune,Épieds (49),1
+01|72126,Commune,Épineu-le-Chevreuil,1
+01|72127,Commune,Étival-lès-le-Mans,1
+01|49132,Commune,Étriché,1
+01|53097,Commune,Évron,1
