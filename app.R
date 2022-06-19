@@ -24,23 +24,49 @@ library(bs4Dash)
 
 # Header
 
-header <- bs4DashNavbar(title = "Outil entreprise")
-  
+header <- bs4DashNavbar("",
+                        title = bs4DashBrand("Outil entreprise", color = NULL, href = NULL, image = "logo.png", opacity = 0.8),
+                        disable = F,
+                        .list = NULL,
+                        leftUi = NULL,
+                        rightUi = NULL,
+                        skin = "light",
+                        status = "white",
+                        border = T,
+                        compact = F,
+                        sidebarIcon = shiny::icon("bars"),
+                        controlbarIcon = shiny::icon("th"),
+                        fixed = T)
+
+
 # Sidebar
 
-sidebar <- bs4DashSidebar("Hello")
+sidebar <- bs4DashSidebar(
+             bs4SidebarMenu(  
+               bs4SidebarMenuItem("Tableau de bord", icon = icon("tachometer-alt"), tabName = "tabDashboard", selected = T),
+               bs4SidebarMenuItem("Analyse", icon = icon("chart-pie"),
+                 bs4SidebarMenuSubItem("Etablissements", tabName = "tabEtablissements"),
+                 bs4SidebarMenuSubItem("Offres", tabName = "tabOffres"),
+                 bs4SidebarMenuSubItem("DPAE", tabName = "tabDpae")),
+               bs4SidebarMenuItem("Ciblage", icon = icon("bullseye"),
+                 bs4SidebarMenuSubItem("Obligation d'Emploi", tabName = "tabBoe"))
+             )
+           )
+
 
 # Body
 
 body <- bs4DashBody(
 
-  fluidRow("Hello")
+  fluidRow(HTML("Hello <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>"))
   
   )
+
 
 # Footer
 
 footer <- bs4DashFooter("Hello")
+
 
 # Ui
 
@@ -57,16 +83,7 @@ ui <- bs4DashPage(header = header,
 # > SERVER
 # ----------------------------------------------------------------------------------------------------
 
-server <- function(input, output) {
-
-  set.seed(122)
-  
-  histdata <- rnorm(500)
-  
-  output$plot1 <- renderPlot({data <- histdata[seq_len(input$slider)]
-   
-                             hist(data)})
-}
+server <- function(input, output) {}
 
 
 # ----------------------------------------------------------------------------------------------------
