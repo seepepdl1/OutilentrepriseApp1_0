@@ -24,19 +24,19 @@ library(bs4Dash)
 
 # Header
 
-header <- bs4DashNavbar("",
-                        title = bs4DashBrand("Outil entreprise", color = NULL, href = NULL, image = "logo.png", opacity = 0.8),
-                        disable = F,
-                        .list = NULL,
-                        leftUi = NULL,
-                        rightUi = NULL,
-                        skin = "light",
-                        status = "white",
-                        border = T,
-                        compact = F,
-                        sidebarIcon = shiny::icon("bars"),
-                        controlbarIcon = shiny::icon("th"),
-                        fixed = T)
+header <- bs4DashNavbar(
+            title = bs4DashBrand("Outil entreprise", color = NULL, href = NULL, image = "logo.png", opacity = 0.8),
+            leftUi = NULL,
+            rightUi = NULL,
+            skin = "light",
+            status = "white",
+            border = T,
+            compact = F,
+            sidebarIcon = shiny::icon("bars"),
+            fixed = T,
+                  
+          
+                        "hjkhjkhk")
 
 
 # Sidebar

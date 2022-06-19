@@ -1,108 +1,26 @@
-if(interactive()){
-  library(shiny)
-  library(bs4Dash)
-  
-  shinyApp(
-    ui = dashboardPage(
-      header = dashboardHeader(),
-      sidebar = dashboardSidebar(),
-      body = dashboardBody(
-        carousel(
-          id = "mycarousel",
-          carouselItem(
-            caption = NULL,
-            
-            
-           fluidRow( userBox(width = 3,
-              title = userDescription(
-                title = "Nadia Carmichael",
-                subtitle = "lead Developer",
-                type = 2,
-                image = "https://adminlte.io/themes/AdminLTE/dist/img/user7-128x128.jpg",
-              ),
-              status = "primary",
-              gradient = TRUE,
-              background = "primary",
-              boxToolSize = "xl",
-              "Some text here!",
-              footer = "The footer here!"
-            ),
-            userBox(width = 3,
-              title = userDescription(
-                title = "Alexander Pierce",
-                subtitle = "Founder & CEO",
-                type = 1,
-                image = "https://adminlte.io/themes/AdminLTE/dist/img/user1-128x128.jpg",
-              ),
-              status = "indigo",
-              closable = TRUE,
-              "Some text here!",
-              footer = "The footer here!"
-            ),
-            userBox(width = 3,
-              title = userDescription(
-                title = "Alexander Pierce",
-                subtitle = "Founder & CEO",
-                type = 1,
-                image = "https://adminlte.io/themes/AdminLTE/dist/img/user1-128x128.jpg",
-              ),
-              status = "indigo",
-              closable = TRUE,
-              "Some text here!",
-              footer = "The footer here!"
-            ),
-            userBox(width = 3,
-              title = userDescription(
-                title = "Alexander Pierce",
-                subtitle = "Founder & CEO",
-                type = 1,
-                image = "https://adminlte.io/themes/AdminLTE/dist/img/user1-128x128.jpg",
-              ),
-              status = "indigo",
-              closable = TRUE,
-              "Some text here!",
-              footer = "The footer here!"
-            )
-            
-            )
-            
-            
-            
-      
-          ),
-          carouselItem(
-            caption = NULL,
-            
-            
-            
-            
-            
-            userBox(
-              title = userDescription(
-                title = "Nadia Carmichael",
-                subtitle = "lead Developer",
-                type = 2,
-                image = "https://adminlte.io/themes/AdminLTE/dist/img/user7-128x128.jpg",
-              ),
-              status = "primary",
-              gradient = TRUE,
-              background = "primary",
-              boxToolSize = "xl",
-              "Some text here!",
-              footer = "The footer here!"
-            )
-            
-            
-            
-            
-            
-            
-            
-          )
-        )
-      ),
-      title = "Carousel"
+
+library(shiny)
+library(shinyWidgets)
+
+  ui <- fluidPage(
+    tags$h1("Search Input"),
+    br(),
+    searchInput(
+      inputId = "search", label = "Enter your text",
+      placeholder = "A placeholder",
+      btnSearch = icon("search"),
+      btnReset = icon("remove"),
+      width = "450px"
     ),
-    server = function(input, output) { }
+    br(),
+    verbatimTextOutput(outputId = "res")
   )
-}
+  
+  server <- function(input, output, session) {
+    output$res <- renderPrint({
+      input$search
+    })
+  }
+  
+  shinyApp(ui = ui, server = server)
+
