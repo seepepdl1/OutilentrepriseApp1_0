@@ -143,19 +143,33 @@ header <- bs4DashNavbar(
 # Sidebar
 
 sidebar <- bs4DashSidebar(
-  bs4SidebarMenu(  
+  skin = 'dark',
+  collapsed = F,
+  minified = T,
+  expandOnHover = F,
+  bs4SidebarMenu(
     bs4SidebarMenuItem("Tableau de bord", 
-                       icon = icon("tachometer-alt"), 
-                       tabName = "tabDashboard", 
+                       # condition = "input.choixZone.length !== 0",
+                       icon = icon('tachometer-alt'), 
+                       tabName = 'tabDashboard', 
                        selected = T),
     bs4SidebarMenuItem("Analyse", 
-                       icon = icon("chart-pie"),
-                       bs4SidebarMenuSubItem("Etablissements", tabName = "tabEtablissements"),
-                       bs4SidebarMenuSubItem("Offres", tabName = "tabOffres"),
-                       bs4SidebarMenuSubItem("DPAE", tabName = "tabDpae")),
-    bs4SidebarMenuItem("Ciblage", 
-                       icon = icon("bullseye"),
-                       bs4SidebarMenuSubItem("Obligation d'Emploi", tabName = "tabBoe"))
+                       # condition = "input.choixZone.length !== 0",
+                       icon = icon('chart-pie'),
+                       bs4SidebarMenuSubItem("Etablissements", tabName = 'tabEtablissements'),
+                       bs4SidebarMenuSubItem("Offres", tabName = 'tabOffres'),
+                       bs4SidebarMenuSubItem("DPAE", tabName = 'tabDpae')
+    ),
+    bs4SidebarMenuItem(tabName = "Ciblage", 
+                       # condition = "input.choixZone.length !== 0",
+                       icon = icon('bullseye'),
+                       bs4SidebarMenuSubItem("Obligation d'Emploi", tabName = 'tabBoe')
+    ),
+    menuItem(
+      condition = "input.choixZone.length !== 0",
+      text = "Tab 2",
+      tabName = "tab2",
+    )
   )
 )
 
