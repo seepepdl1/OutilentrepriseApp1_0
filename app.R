@@ -8,6 +8,7 @@
 
 library(bs4Dash)
 library(tidyverse)
+library(shinyWidgets)
 
 
 # --------------------------------------------------------------------------------------------------
@@ -242,6 +243,79 @@ server <- function(input, output, session) {
   observeEvent(input$filtresButton, {
     showModal(
       modalDialog(
+        h4("Secteur d'activité"),
+        div(style = "padding: 20px 0",
+            shinyWidgets::actionBttn(
+              inputId = "Id110",
+              label = "bordered", 
+              style = "bordered",
+              color = "success",
+              icon = icon("sliders")
+            ),
+            shinyWidgets::actionBttn(
+              inputId = "Id110",
+              label = "bordered", 
+              style = "bordered",
+              color = "success",
+              icon = icon("sliders")
+            ),
+            shinyWidgets::actionBttn(
+              inputId = "Id110",
+              label = "bordered", 
+              style = "bordered",
+              color = "success",
+              icon = icon("sliders")),
+            shinyWidgets::actionBttn(
+              inputId = "Id110",
+              label = "bordered", 
+              style = "bordered",
+              color = "success",
+              icon = icon("sliders")),
+            shinyWidgets::actionBttn(
+              inputId = "Id110",
+              label = "bordered", 
+              style = "bordered",
+              color = "success",
+              icon = icon("sliders")),
+            shinyWidgets::actionBttn(
+              inputId = "Id110",
+              label = "bordered", 
+              style = "bordered",
+              color = "success",
+              icon = icon("sliders")),
+            shinyWidgets::actionBttn(
+              inputId = "Id110",
+              label = "bordered", 
+              style = "bordered",
+              color = "success",
+              icon = icon("sliders")
+            )
+        ),
+        shinyWidgets::checkboxGroupButtons(
+          inputId = "Id057",
+          label = "Choose a graph :", 
+          choices = c(`<i class='fa fa-bar-chart'><p>Agriculture</p></i>` = "t1", 
+                      `<i class='fa fa-line-chart'></i>` = "t2", 
+                      `<i class='fa fa-pie-chart'></i>` = "t3",
+                      `<i class='fa fa-bar-chart'></i>` = "t4", 
+                      `<i class='fa fa-line-chart'></i>` = "t5", 
+                      `<i class='fa fa-pie-chart'></i>` = "t6",
+                      `<i class='fa fa-bar-chart'></i>` = "t7", 
+                      `<i class='fa fa-line-chart'></i>` = "t8", 
+                      `<i class='fa fa-pie-chart'></i>` = "t8",
+                      `<i class='fa fa-bar-chart'></i>` = "t10", 
+                      `<i class='fa fa-line-chart'></i>` = "t11", 
+                      `<i class='fa fa-pie-chart'></i>` = "t12",
+                      `<i class='fa fa-bar-chart'></i>` = "t13", 
+                      `<i class='fa fa-line-chart'></i>` = "t14", 
+                      `<i class='fa fa-pie-chart'></i>` = "t15"),
+          size = 'lg',
+          justified = TRUE,
+          individual = TRUE
+        ),
+        br(),
+        hr(),
+        br(), br(), br(),
         title = HTML("<h5 class='modal-title' id='exampleModalLongTitle'>Filtres</h5>
                       <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
                        <span aria-hidden='true'>&times;</span>
