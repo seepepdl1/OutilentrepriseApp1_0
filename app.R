@@ -1,28 +1,28 @@
-#=====================================================================================================
+#===================================================================================================
 # DESCRIPTION   : Application Web
 #
 # ENVIRONNEMENT : R 4.1.3hjkhk
 #  
 # TODO          : 
-#=====================================================================================================
+#===================================================================================================
 
 library(bs4Dash)
 library(tidyverse)
 
 
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # > FONCTIONS
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # > CONSTANTES
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 zones <- read_csv('zones.csv')
 
-choixZone <- selectizeInput(
-  inputId = 'choixZone', 
+zoneInput <- selectizeInput(
+  inputId = 'zoneInput', 
   label = NULL, 
   choices = NULL, 
   multiple = TRUE, 
@@ -51,9 +51,9 @@ choixZone <- selectizeInput(
 )
 
 filtres <-   conditionalPanel(
-  condition = I("input.choixZone.length !== 0"),
+  condition = I("input.zoneInput.length !== 0"),
   actionButton(
-    inputId = 'filtres',
+    inputId = 'filtresButton',
     label = "Filtres", 
     icon = shiny::icon('sliders-h'), 
     width = NULL, 
@@ -62,12 +62,11 @@ filtres <-   conditionalPanel(
 )
 
 
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # > UI
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 # Body
-
 body <- bs4DashBody(
   shinyjs::useShinyjs(),
   tags$head(
@@ -89,7 +88,6 @@ body <- bs4DashBody(
 
 
 # Header
-
 header <- bs4DashNavbar(
   title = bs4DashBrand(
     "Outil entreprise", 
@@ -105,13 +103,19 @@ header <- bs4DashNavbar(
     .list = list(
       notificationItem(
         inputId = 'Notif 1',
-        text = HTML("Ajout des DPAE <span class='float-right text-muted text-sm'>22/11/2022</span>"),
+        text = HTML("Ajout des DPAE 
+                    <span class='float-right text-muted text-sm'>
+                      22/11/2022
+                    </span>"),
         icon = shiny::icon('info'),
         status = 'gray-dark'
       ),
       notificationItem(
         inputId = 'Notif 2',
-        text = HTML("Ajout des Offres <span class='float-right text-muted text-sm'>07/09/2022</span>"),
+        text = HTML("Ajout des Offres 
+                    <span class='float-right text-muted text-sm'>
+                      07/09/2022
+                    </span>"),
         icon = shiny::icon("info"),
         status = "gray-dark"
       )
@@ -151,14 +155,13 @@ header <- bs4DashNavbar(
   ),
   tags$ul(
     class = 'navbar-nav',
-    tags$li(class = 'nav-item', choixZone),
+    tags$li(class = 'nav-item', zoneInput),
     tags$li(class = 'nav-item', filtres)
   )
 )
 
 
 # Sidebar
-
 sidebar <- bs4DashSidebar(
   id = "sidebar",
   skin = 'dark',
@@ -166,7 +169,7 @@ sidebar <- bs4DashSidebar(
   minified = TRUE,
   expandOnHover = FALSE,
   conditionalPanel(
-    condition = I("input.choixZone.length !== 0"),
+    condition = I("input.zoneInput.length !== 0"),
     bs4SidebarMenu(
       bs4SidebarMenuItem(
         text = "Tableau de bord", 
@@ -193,12 +196,10 @@ sidebar <- bs4DashSidebar(
 
 
 # Footer
-
 footer <- bs4DashFooter("Hello")
 
 
 # Ui
-
 ui <- bs4DashPage(
   header = header, 
   sidebar = sidebar, 
@@ -210,43 +211,63 @@ ui <- bs4DashPage(
 )
 
 
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # > SERVER
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 server <- function(input, output, session) {
   
+  # Update de la box zoneInput
   updateSelectizeInput(
     session = session, 
-    inputId = 'choixZone', 
+    inputId = 'zoneInput', 
     choices = zones, 
     selected = zones %>% filter(Type_zone == ""),
     server = TRUE)
   
-  output$affiche <- renderPrint({
-    idZone <- as.character(zones[as.integer(input$choixZone), 1])
-    typeZone <- as.character(zones[as.integer(input$choixZone), 2])
-    libelleZone <- as.character(zones[as.integer(input$choixZone), 3])
-    c(input$choixZone, is.null(input$choixZone), idZone, typeZone, libelleZone)
-  })
-  
-  observeEvent(
-    eventExpr = input$choixZone,
-    ignoreInit = TRUE,
-    ignoreNULL = FALSE,
-    handlerExpr = if (is.null(input$choixZone)) {
+  # Contrôle de la sidebar en fonction du choix de la box
+  observeEvent(input$zoneInput, {
+    if (is.null(input$zoneInput)) {
       shinyjs::addCssClass(selector = "body", class = "sidebar-collapse")
     }
     else {
       shinyjs::removeCssClass(selector = "body", class = "sidebar-collapse")
     }
+  },
+  ignoreInit = TRUE,
+  ignoreNULL = FALSE
   )
+  
+  # Modal de filtre
+  observeEvent(input$filtresButton, {
+    showModal(
+      modalDialog(
+        title = HTML("<h5 class='modal-title' id='exampleModalLongTitle'>Filtres</h5>
+                      <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                       <span aria-hidden='true'>&times;</span>
+                      </button>"),
+        size = 'l',
+        easyClose = TRUE,
+        footer = tagList(
+          actionButton('appliFiltresButton', "Afficher 5 654 établissements"),
+        )
+      )
+    )
+  })
+  
+  # Output de test
+  output$affiche <- renderPrint({
+    idZone <- as.character(zones[as.integer(input$zoneInput), 1])
+    typeZone <- as.character(zones[as.integer(input$zoneInput), 2])
+    libelleZone <- as.character(zones[as.integer(input$zoneInput), 3])
+    c(input$zoneInput, is.null(input$zoneInput), idZone, typeZone, libelleZone)
+  })
   
 }
 
 
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # > APP
-# ----------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 shinyApp(ui, server)

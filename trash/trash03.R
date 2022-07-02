@@ -1,49 +1,26 @@
 library(shiny)
-library(shinydashboard)
-library(shinyjs)
+# library(shinyBS)
 
-ui <- shinyUI(dashboardPage(
-  dashboardHeader(),
-  dashboardSidebar( tags$head(
-    tags$script(
-      HTML(#code for hiding sidebar tabs 
-        "Shiny.addCustomMessageHandler('manipulateMenuItem1', function(message)
-        {
-        var aNodeList = document.getElementsByTagName('a');
+ui<-fluidPage(
+  actionButton("tabBut", "View Table"),
+  #bsModal("modalExample", "Modal Example", "tabBut", size = "large",tags$div(class="modal-footer",tags$button(type="button",class="btn btn-primary mr-auto","data-dismiss"="modal","Done")))
+)
 
-        for (var i = 0; i < aNodeList.length; i++) 
-        {
-        if(aNodeList[i].getAttribute('data-toggle') == message.toggle && aNodeList[i].getAttribute('role') == message.role) 
-        {
-        if(message.action == 'hide')
-        {
-        aNodeList[i].setAttribute('style', 'display: none;');
-        } 
-        else 
-        {
-        aNodeList[i].setAttribute('style', 'display: block;');
-        };
-        };
-        }
-        });"
+server<-function(input, output){
+  
+  observeEvent(input$tabBut, {
+    showModal(
+      modalDialog(
+        title = 'Modal Example',
+        footer = tagList(
+          actionButton("done", "Some button for Done"),
+          modalButton('Close')
+        )
       )
     )
-  )
-  ),
-  dashboardBody(
-    useShinyjs(),
-    actionButton("h1","Hide toggle"),
-    actionButton("h2","Show toggle")
-  )
-))
-
-server <- shinyServer(function(input, output, session) {
-  observeEvent(input$h1,{
-    session$sendCustomMessage(type = "manipulateMenuItem1", message = list(action = "hide",toggle = "offcanvas", role = "button"))
   })
-  observeEvent(input$h2,{
-    session$sendCustomMessage(type = "manipulateMenuItem1", message = list(action = "show",toggle = "offcanvas", role = "button"))
-  })
-})
+  
+}
 
-shinyApp(ui = ui, server = server)
+
+shinyApp(ui=ui,server=server)
