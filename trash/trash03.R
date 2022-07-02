@@ -1,149 +1,49 @@
-if (interactive()) {
-  library(shiny)
-  library(bs4Dash)
-  
-  shinyApp(
-    ui = dashboardPage(
-      header = dashboardHeader(skin = "dark"),
-      body = dashboardBody(
-        tabItems(
-          tabItem(
-            tabName = "tab1",
-            sliderInput("obs", "Number of observations:",
-                        min = 0, max = 1000, value = 500
-            ),
-            plotOutput("distPlot")
-          ),
-          tabItem(
-            tabName = "tab2",
-            checkboxGroupInput(
-              "variable", "Variables to show:",
-              c(
-                "Cylinders" = "cyl",
-                "Transmission" = "am",
-                "Gears" = "gear"
-              )
-            ),
-            tableOutput("data")
-          ),
-          tabItem(
-            tabName = "tab3",
-            checkboxInput("val", "Some value", FALSE),
-            textOutput("value")
-          ),
-          tabItem(
-            tabName = "tab4",
-            "Nothing special here!"
-          ),
-          tabItem(
-            tabName = "tab5",
-            "Tab 5"
-          ),
-          tabItem(
-            tabName = "tab6",
-            "Tab 6"
-          ),
-          tabItem(
-            tabName = "tab7",
-            "Tab 7"
-          )
-        )
-      ),
-      sidebar = dashboardSidebar(
-        skin = "light",
-        inputId = "sidebarState",
-        sidebarMenu(
-          id = "sidebar",
-          menuItem(
-            text = "Tab 1",
-            tabName = "tab1",
-            icon = icon("shuttle-van")
-          ),
-          menuItem(
-            text = "Tab 2",
-            tabName = "tab2",
-            icon = icon("space-shuttle"),
-            selected = TRUE
-          ),
-          menuItem(
-            text = "Item List 1",
-            icon = icon("bars"),
-            startExpanded = TRUE,
-            menuSubItem(
-              text = "Item 3",
-              tabName = "tab3",
-              icon = icon("circle-thin")
-            ),
-            menuSubItem(
-              text = "Item 4",
-              tabName = "tab4",
-              icon = icon("circle-thin")
-            )
-          ),
-          menuItem(
-            text = "Item List 2",
-            icon = icon("bars"),
-            startExpanded = FALSE,
-            menuSubItem(
-              text = "Item 5",
-              tabName = "tab5",
-              icon = icon("circle-thin")
-            ),
-            menuSubItem(
-              text = "Item 6",
-              tabName = "tab6",
-              icon = icon("circle-thin")
-            )
-          ),
-          menuItem(
-            text = "Tab 7",
-            tabName = "tab7",
-            icon = icon("home")
-          )
-        )
-      ),
-      controlbar = dashboardControlbar(
-        skin = "light",
-        sliderInput(
-          inputId = "controller",
-          label = "Update the first tabset",
-          min = 1,
-          max = 6,
-          value = 2
-        )
-      ),
-      footer = bs4DashFooter()
-    ),
-    server = function(input, output, session) {
-      observe(print(input$sidebarItemExpanded))
-      observe(print(input$sidebar))
-      
-      # update tabset1
-      observeEvent(input$controller,
-                   {
-                     updateTabItems(
-                       session,
-                       inputId = "sidebar",
-                       selected = paste0("tab", input$controller)
-                     )
-                   },
-                   ignoreInit = TRUE
-      )
-      
-      output$distPlot <- renderPlot({
-        hist(rnorm(input$obs))
-      })
-      
-      output$data <- renderTable(
+library(shiny)
+library(shinydashboard)
+library(shinyjs)
+
+ui <- shinyUI(dashboardPage(
+  dashboardHeader(),
+  dashboardSidebar( tags$head(
+    tags$script(
+      HTML(#code for hiding sidebar tabs 
+        "Shiny.addCustomMessageHandler('manipulateMenuItem1', function(message)
         {
-          mtcars[, c("mpg", input$variable), drop = FALSE]
-        },
-        rownames = TRUE
+        var aNodeList = document.getElementsByTagName('a');
+
+        for (var i = 0; i < aNodeList.length; i++) 
+        {
+        if(aNodeList[i].getAttribute('data-toggle') == message.toggle && aNodeList[i].getAttribute('role') == message.role) 
+        {
+        if(message.action == 'hide')
+        {
+        aNodeList[i].setAttribute('style', 'display: none;');
+        } 
+        else 
+        {
+        aNodeList[i].setAttribute('style', 'display: block;');
+        };
+        };
+        }
+        });"
       )
-      
-      output$value <- renderText({
-        input$val
-      })
-    }
+    )
   )
-}
+  ),
+  dashboardBody(
+    useShinyjs(),
+    actionButton("h1","Hide toggle"),
+    actionButton("h2","Show toggle")
+  )
+))
+
+server <- shinyServer(function(input, output, session) {
+  observeEvent(input$h1,{
+    session$sendCustomMessage(type = "manipulateMenuItem1", message = list(action = "hide",toggle = "offcanvas", role = "button"))
+  })
+  observeEvent(input$h2,{
+    session$sendCustomMessage(type = "manipulateMenuItem1", message = list(action = "show",toggle = "offcanvas", role = "button"))
+  })
+})
+
+shinyApp(ui = ui, server = server)
