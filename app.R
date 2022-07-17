@@ -250,45 +250,45 @@ server <- function(input, output, session) {
               label = "bordered", 
               style = "bordered",
               color = "success",
-              icon = icon("sliders")
+              icon = icon("sliders-h'")
             ),
             shinyWidgets::actionBttn(
               inputId = "Id110",
               label = "bordered", 
               style = "bordered",
               color = "success",
-              icon = icon("sliders")
+              icon = icon("sliders-h'")
             ),
             shinyWidgets::actionBttn(
               inputId = "Id110",
               label = "bordered", 
               style = "bordered",
               color = "success",
-              icon = icon("sliders")),
+              icon = icon("sliders-h'")),
             shinyWidgets::actionBttn(
               inputId = "Id110",
               label = "bordered", 
               style = "bordered",
               color = "success",
-              icon = icon("sliders")),
+              icon = icon("sliders-h'")),
             shinyWidgets::actionBttn(
               inputId = "Id110",
               label = "bordered", 
               style = "bordered",
               color = "success",
-              icon = icon("sliders")),
+              icon = icon("sliders-h'")),
             shinyWidgets::actionBttn(
               inputId = "Id110",
               label = "bordered", 
               style = "bordered",
               color = "success",
-              icon = icon("sliders")),
+              icon = icon("sliders-h'")),
             shinyWidgets::actionBttn(
               inputId = "Id110",
               label = "bordered", 
               style = "bordered",
               color = "success",
-              icon = icon("sliders")
+              icon = icon("sliders-h'")
             )
         ),
         shinyWidgets::checkboxGroupButtons(
