@@ -1,7 +1,7 @@
 #===================================================================================================
 # DESCRIPTION   : Application Web
 #
-# ENVIRONNEMENT : R 4.1.3hjkhk
+# ENVIRONNEMENT : R 4.1.3
 #  
 # TODO          : 
 #===================================================================================================
@@ -9,11 +9,7 @@
 library(bs4Dash)
 library(tidyverse)
 library(shinyWidgets)
-
-
-# --------------------------------------------------------------------------------------------------
-# > FONCTIONS
-# --------------------------------------------------------------------------------------------------
+library(glue)
 
 
 # --------------------------------------------------------------------------------------------------
@@ -71,20 +67,39 @@ filtres <-   conditionalPanel(
 body <- bs4DashBody(
   shinyjs::useShinyjs(),
   tags$head(
-    tags$style(
-      HTML(".navbar {
-              justify-content: space-between;
-            }
-           .ml-auto {
-             margin-left: initial!important
-           }")
-    )
+    tags$link(rel = "stylesheet", type = "text/css", href = "style.css"),
+    tags$script(src = "functions.js"),
   ),
-  
-  br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(),
-  
-  verbatimTextOutput("affiche")
-  
+  verbatimTextOutput("affiche"),
+    conditionalPanel(
+    condition = I("input.zoneInput.length !== 0"),
+    bs4TabItems(
+      bs4TabItem(
+        tabName = 'tabTdb',
+        "Tableau de bord",
+      ),
+      bs4TabItem(
+        tabName = 'tabEtablissements',
+        "Etablissements"
+      ),
+      bs4TabItem(
+        tabName = 'tabOffres',
+        "Offres"
+      ),
+      bs4TabItem(
+        tabName = 'tabDpae',
+        "DPAE"
+      ),
+      bs4TabItem(
+        tabName = 'tabBoe',
+        "BOE"
+      ),
+      bs4TabItem(
+        tabName = 'tabAPropos',
+        pmap(cstAlertesListe, fctAlertesBody)
+      )
+    )
+  ) 
 )
 
 
@@ -96,32 +111,13 @@ header <- bs4DashNavbar(
     href = NULL, 
     image = "logo.png",
     opacity = 0.8),
-  rightUi = bs4DropdownMenu(
+  rightUi = fctBs4DropdownMenu(
     badgeStatus = 'info',
     type = 'notifications',
     icon = shiny::icon('bell'),
     headerText = "Les derniers ajouts",
-    .list = list(
-      notificationItem(
-        inputId = 'Notif 1',
-        text = HTML("Ajout des DPAE 
-                    <span class='float-right text-muted text-sm'>
-                      22/11/2022
-                    </span>"),
-        icon = shiny::icon('info'),
-        status = 'gray-dark'
-      ),
-      notificationItem(
-        inputId = 'Notif 2',
-        text = HTML("Ajout des Offres 
-                    <span class='float-right text-muted text-sm'>
-                      07/09/2022
-                    </span>"),
-        icon = shiny::icon("info"),
-        status = "gray-dark"
-      )
-    ),
-    href = "http://www.google.fr"
+    .list = pmap(cstAlertesListe, fctAlertesHeader),
+    href = 'tabAPropos'
   ),
   tags$style(
     HTML(".selectize-input {
@@ -189,6 +185,13 @@ sidebar <- bs4DashSidebar(
         text = "Ciblage",
         icon = shiny::icon('bullseye'),
         bs4SidebarMenuSubItem(text = "Obligation d'Emploi", tabName = 'tabBoe'
+        )
+      ),
+      bs4SidebarMenu(
+        bs4SidebarMenuItem(
+          text = "A propos", 
+          tabName = 'tabAPropos', 
+          icon = shiny::icon('info')
         )
       )
     )
