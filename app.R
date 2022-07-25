@@ -102,7 +102,6 @@ body <- bs4DashBody(
   ) 
 )
 
-
 # Header
 header <- bs4DashNavbar(
   title = bs4DashBrand(
@@ -111,14 +110,14 @@ header <- bs4DashNavbar(
     href = NULL, 
     image = "logo.png",
     opacity = 0.8),
-  rightUi = fctBs4DropdownMenu(
-    badgeStatus = 'info',
-    type = 'notifications',
-    icon = shiny::icon('bell'),
-    headerText = "Les derniers ajouts",
-    .list = pmap(cstAlertesListe, fctAlertesHeader),
-    href = 'tabAPropos'
-  ),
+  # rightUi = fctBs4DropdownMenu(
+  #   badgeStatus = 'info',
+  #   type = 'notifications',
+  #   icon = shiny::icon('bell'),
+  #   headerText = "Les derniers ajouts",
+  #   .list = pmap(cstAlertesListe, fctAlertesHeader),
+  #   href = 'tabAPropos'
+  # ),
   tags$style(
     HTML(".selectize-input {
              height: 38px;
@@ -156,7 +155,6 @@ header <- bs4DashNavbar(
     tags$li(class = 'nav-item', filtres)
   )
 )
-
 
 # Sidebar
 sidebar <- bs4DashSidebar(
@@ -198,10 +196,8 @@ sidebar <- bs4DashSidebar(
   )
 )
 
-
 # Footer
 footer <- bs4DashFooter("Hello")
-
 
 # Ui
 ui <- bs4DashPage(
